@@ -4,3 +4,19 @@
 @import 'tailwindcss/utilities';
 
 /* Your custom styles go here */
+@font-face {
+    font-family: 'Helvatica Neue Light';
+    src: url('/fonts/helvatica-neue/HelveticaNeueLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Helvatica Neue Medium';
+    src: url('/fonts/helvatica-neue/HelveticaNeueMedium.ttf') format('truetype');
+}
+
+
+.site-logo, a,h1{
+    font-family: 'Helvatica Neue Medium';
+}
+p{
+    font-family: 'Helvatica Neue Light';
+}
