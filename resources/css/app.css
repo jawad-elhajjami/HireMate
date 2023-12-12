@@ -11,7 +11,9 @@
     box-sizing: border-box;
 }
 
-html{
+html
+,body{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -25,7 +27,7 @@ html{
 }
 
 
-.site-logo, a,h1{
+.site-logo, a,h1,h2,.number,h3{
     font-family: 'Helvatica Neue Medium';
 }
 p{
