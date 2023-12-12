@@ -25,9 +25,9 @@
             <div class="flex items-center flex-col justify-between mt-10 lg:flex-row">
                 <p class="mb-5">Copyright © 2023 HireMate .All rights reserved.</p>
                 <div class="flex items-center gap-5">
-                    <a href=""><img src="icons/fb.svg" alt=""></a>
-                    <a href=""><img src="icons/instagram.svg" alt=""></a>
-                    <a href=""><img src="icons/linkedin.svg" alt=""></a>
+                    @foreach($socialLinks as $link)
+                        <a href="{{ $link['url'] }}"><img src="{{ $link['icon'] }}" alt=""></a>
+                    @endforeach
                 </div>
             </div>
 

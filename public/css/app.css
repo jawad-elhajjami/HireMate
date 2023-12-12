@@ -491,27 +491,23 @@ video {
 .mb-20 {
   margin-bottom: 5rem;
 }
-<<<<<<< HEAD
 .mb-3 {
   margin-bottom: 0.75rem;
-=======
+}
 .mb-4 {
   margin-bottom: 1rem;
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
 }
 .mb-5 {
   margin-bottom: 1.25rem;
 }
-<<<<<<< HEAD
-.mt-8 {
-  margin-top: 2rem;
-=======
 .mt-10 {
   margin-top: 2.5rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
 }
 .flex {
   display: flex;
@@ -525,13 +521,11 @@ video {
 .h-14 {
   height: 3.5rem;
 }
-<<<<<<< HEAD
-.h-auto {
-  height: auto;
-=======
 .h-8 {
   height: 2rem;
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+}
+.h-auto {
+  height: auto;
 }
 .min-h-\[40vh\] {
   min-height: 40vh;
@@ -554,17 +548,11 @@ video {
 .w-\[200px\] {
   width: 200px;
 }
-.w-\[90\%\] {
-  width: 90%;
+.w-\[80\%\] {
+  width: 80%;
 }
 .w-full {
   width: 100%;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[80\%\] {
-  width: 80%;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -629,35 +617,38 @@ video {
 .border {
   border-width: 1px;
 }
-<<<<<<< HEAD
 .border-2 {
   border-width: 2px;
 }
-.border-solid {
-  border-style: solid;
-=======
 .border-b {
   border-bottom-width: 1px;
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+}
+.border-solid {
+  border-style: solid;
 }
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
 .border-green-400 {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
 .bg-gray-100 {
-<<<<<<< HEAD
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 .bg-gray-200 {
-=======
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 .bg-green-200 {
   --tw-bg-opacity: 1;
@@ -737,13 +728,11 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-<<<<<<< HEAD
-.pb-2 {
-  padding-bottom: 0.5rem;
-=======
 .pb-10 {
   padding-bottom: 2.5rem;
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -760,11 +749,6 @@ video {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-<<<<<<< HEAD
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -775,8 +759,6 @@ video {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-=======
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -791,7 +773,6 @@ video {
 .font-semibold {
   font-weight: 600;
 }
-<<<<<<< HEAD
 .text-\[\#4DD783\] {
   --tw-text-opacity: 1;
   color: rgb(77 215 131 / var(--tw-text-opacity));
@@ -799,11 +780,10 @@ video {
 .text-\[\#888\] {
   --tw-text-opacity: 1;
   color: rgb(136 136 136 / var(--tw-text-opacity));
-=======
+}
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
@@ -1026,28 +1006,24 @@ p{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-<<<<<<< HEAD
 
-=======
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+
 @media (min-width: 640px) {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
-<<<<<<< HEAD
 
-=======
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+
 @media (min-width: 1024px) {
   .lg\:order-2 {
     order: 2;
@@ -1082,11 +1058,6 @@ p{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-<<<<<<< HEAD
-}
-
-
-=======
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1104,4 +1075,5 @@ p{
     line-height: 1;
   }
 }
->>>>>>> 012a39369215898501f6e08e24849fcdb9d1bc86
+
+

@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Get Started</title>
 </head>
-<body class="bg-gray-200">
-
+<body class="bg-gray-100">
+    <x-header /> 
     <div class="container my-16 max-w-3xl mx-auto grid items-center justify-center">
         <h1 class="text-4xl text-center pb-2">Ready to take your career to the next level ?</h1>
         <p class="text-base w-1/2 my-0 mx-auto text-center">Fill out your informations in the form below, it takes only a few moments.</p>
-        <div class="bg-white w-[80%] mx-auto rounded-md h-auto p-[40px] border-solid border-2 border-gray-[#888888] mt-8">
+        <div class="bg-white w-[80%] mx-auto rounded-md h-auto p-[40px] border-solid border-2 border-gray-100 mt-8">
             <div class="">
                 
                 <h2 class="text-[24px] text-[#4DD783] pb-2 font-medium">Create your account</h2>
@@ -26,6 +26,6 @@
             </div>
         </div>
     </div>
-    
+    <x-footer />
 </body>
 </html>
