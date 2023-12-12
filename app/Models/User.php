@@ -18,9 +18,14 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'fullName',
         'email',
+        'phoneNumber',
+        'Address',
         'password',
+        'role',
+        'email_verified_at', // You can leave this out as it's not mass assignable
+        'rememberToken', // You can leave this out as it's not mass assignable
     ];
 
     /**
@@ -41,4 +46,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function employer()
+    {
+        return $this->hasOne(Employer::class, 'id_user', 'idUser');
+    }
+
+    public function candidate()
+    {
+        return $this->hasOne(Candidate::class, 'id_user', 'idUser');
+    }
 }
