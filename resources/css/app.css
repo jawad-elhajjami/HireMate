@@ -4,6 +4,18 @@
 @import 'tailwindcss/utilities';
 
 /* Your custom styles go here */
+:root{
+    /* colors */
+    --color-primary: #4DD783;
+    --color-lightgreen-1:#EBF0EB;
+    --color-lightgreen-2:#E5F9ED;
+    --color-text: #2A2A2A;
+    --color-lightgray: #D9D9D9;
+    --color-darkgray:#888888;
+    --color-white:#ffffff;
+    --color-bgColor:#F5F5F5;
+    
+}
 
 *{
     margin: 0;
@@ -46,3 +58,78 @@ p{
 .hero-section-content{
     z-index: 1;
 }
+
+/*INPUT STYLE*/
+.custom-field {
+    position: relative;
+    font-size: 14px;
+    border-top: 20px solid transparent;
+    margin-bottom: 5px;
+    display: inline-block;
+    --field-padding: 12px;
+    width: 100%;
+}
+
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: var(--field-padding);
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Helvatica Neue Light';
+}
+
+.custom-field .placeholder {
+    font-family: 'Helvatica Neue Light';
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 50%;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.custom-field.one input {
+    background: none;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+    height: 50px;    
+}
+
+.custom-field.one input + .placeholder {
+    left: 8px;
+    padding: 0 5px;
+}
+
+.custom-field.one input.dirty,
+.custom-field.one input:not(:placeholder-shown),
+.custom-field.one input:focus {
+    border-color: var(--color-primary);
+    transition-delay: 0.1s;
+    box-shadow: 0px 0px 0px 3px rgba(77, 215, 131, 0.20);
+}
+
+.custom-field.one input.dirty + .placeholder,
+.custom-field.one input:not(:placeholder-shown) + .placeholder,
+.custom-field.one input:focus + .placeholder {
+    top: 10px;
+    font-size: 12px;
+    color: var(--color-primary);
+    background: #fff;
+    width: auto
+}
+
