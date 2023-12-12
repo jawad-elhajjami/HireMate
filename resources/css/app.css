@@ -4,6 +4,17 @@
 @import 'tailwindcss/utilities';
 
 /* Your custom styles go here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Helvatica Neue Light';
     src: url('/fonts/helvatica-neue/HelveticaNeueLight.ttf') format('truetype');
@@ -19,4 +30,19 @@
 }
 p{
     font-family: 'Helvatica Neue Light';
+}
+
+.hero-section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha channel to control the darkness */
+    z-index: 0;
+}
+.hero-section-content{
+    z-index: 1;
 }
