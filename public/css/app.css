@@ -448,9 +448,6 @@ video {
     max-width: 1536px;
   }
 }
-.fixed {
-  position: fixed;
-}
 .absolute {
   position: absolute;
 }
@@ -469,17 +466,8 @@ video {
 .top-0 {
   top: 0px;
 }
-.z-\[9999999\] {
-  z-index: 9999999;
-}
-.z-\[\] {
-  z-index: ;
-}
-.z-\[2\] {
-  z-index: 2;
-}
-.z-\[3\] {
-  z-index: 3;
+.z-\[9999\] {
+  z-index: 9999;
 }
 .mx-auto {
   margin-left: auto;
@@ -500,9 +488,6 @@ video {
 }
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
 }
 .mt-10 {
   margin-top: 2.5rem;
@@ -573,31 +558,20 @@ video {
 .gap-4 {
   gap: 1rem;
 }
-.gap-20 {
-  gap: 5rem;
-}
 .gap-5 {
   gap: 1.25rem;
-}
-.gap-x-4 {
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
-}
-.gap-x-60 {
-  -moz-column-gap: 15rem;
-       column-gap: 15rem;
-}
-.gap-x-\[15rem\] {
-  -moz-column-gap: 15rem;
-       column-gap: 15rem;
 }
 .gap-x-20 {
   -moz-column-gap: 5rem;
        column-gap: 5rem;
 }
-.gap-x-40 {
-  -moz-column-gap: 10rem;
-       column-gap: 10rem;
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.gap-x-\[15rem\] {
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
 }
 .self-center {
   align-self: center;
@@ -673,9 +647,6 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
-.p-20 {
-  padding: 5rem;
-}
 .p-4 {
   padding: 1rem;
 }
@@ -740,10 +711,6 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
 .font-semibold {
   font-weight: 600;
 }
@@ -797,6 +764,10 @@ html
     scroll-behavior: smooth;
 }
 
+body {
+    min-height: 100vh;
+}
+
 @font-face {
     font-family: 'Helvatica Neue Light';
     src: url('/fonts/helvatica-neue/HelveticaNeueLight.ttf') format('truetype');
@@ -806,6 +777,17 @@ html
     src: url('/fonts/helvatica-neue/HelveticaNeueMedium.ttf') format('truetype');
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Adjust the value based on your needs */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the container */
+}
 
 .site-logo, a,h1,h2,.number,h3{
     font-family: 'Helvatica Neue Medium';
@@ -886,15 +868,8 @@ p{
   .lg\:flex-row {
     flex-direction: row;
   }
-  .lg\:flex-col {
-    flex-direction: column;
-  }
   .lg\:gap-12 {
     gap: 3rem;
-  }
-  .lg\:gap-x-4 {
-    -moz-column-gap: 1rem;
-         column-gap: 1rem;
   }
   .lg\:gap-x-60 {
     -moz-column-gap: 15rem;

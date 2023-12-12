@@ -17,6 +17,10 @@ html
     scroll-behavior: smooth;
 }
 
+body {
+    min-height: 100vh;
+}
+
 @font-face {
     font-family: 'Helvatica Neue Light';
     src: url('/fonts/helvatica-neue/HelveticaNeueLight.ttf') format('truetype');
@@ -26,6 +30,17 @@ html
     src: url('/fonts/helvatica-neue/HelveticaNeueMedium.ttf') format('truetype');
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Adjust the value based on your needs */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the container */
+}
 
 .site-logo, a,h1,h2,.number,h3{
     font-family: 'Helvatica Neue Medium';
