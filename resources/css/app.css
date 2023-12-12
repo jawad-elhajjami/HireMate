@@ -23,8 +23,14 @@
     box-sizing: border-box;
 }
 
-html{
+html
+,body{
+    overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
 }
 
 @font-face {
@@ -37,7 +43,18 @@ html{
 }
 
 
-.site-logo, a,h1{
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Adjust the value based on your needs */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the container */
+}
+
+.site-logo, a,h1,h2,.number,h3{
     font-family: 'Helvatica Neue Medium';
 }
 p{
