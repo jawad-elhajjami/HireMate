@@ -7,7 +7,7 @@
                 @if ($showLinks == "true")
 
                 <div class="flex items-center lg:order-2 gap-x-4">
-                    <a href="" class="text-gray-800 p-2 px-4 hover:bg-gray-200 hover:text-black duration-200 rounded-full">Log in</a>
+                    <a href="{{ route('login') }}" class="text-gray-800 p-2 px-4 hover:bg-gray-200 hover:text-black duration-200 rounded-full">Log in</a>
                     <a href="/getStarted" class="text-green-400 py-2 px-4  border border-green-400 hover:bg-green-400 hover:text-white duration-200 rounded-full">Get started</a>
                 </div>
 

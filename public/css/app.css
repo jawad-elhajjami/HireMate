@@ -518,6 +518,12 @@ video {
 .mt-\[20px\] {
   margin-top: 20px;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .block {
   display: block;
 }
@@ -544,6 +550,12 @@ video {
 }
 .h-full {
   height: 100%;
+}
+.h-px {
+  height: 1px;
+}
+.h-4 {
+  height: 1rem;
 }
 .min-h-\[40vh\] {
   min-height: 40vh;
@@ -574,6 +586,13 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-px {
+  width: 1px;
+}
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .min-w-\[300px\] {
   min-width: 300px;
@@ -616,6 +635,12 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-20 {
+  gap: 5rem;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .gap-x-20 {
   -moz-column-gap: 5rem;
@@ -723,6 +748,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/images\/hero-image\.png\'\)\] {
   background-image: url('/images/hero-image.png');
@@ -835,6 +864,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .font-medium {
   font-weight: 500;
@@ -1073,6 +1106,11 @@ p{
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-green-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1112,6 +1150,9 @@ p{
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
   .lg\:w-\[50\%\] {
     width: 50%;
