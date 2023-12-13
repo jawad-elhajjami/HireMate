@@ -14,7 +14,6 @@
     --color-darkgray:#888888;
     --color-white:#ffffff;
     --color-bgColor:#F5F5F5;
-    
 }
 
 *{
@@ -54,7 +53,7 @@ footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
 }
 
-.site-logo, a,h1,h2,.number,h3{
+.site-logo, a,h1,h2,.number,h3,button{
     font-family: 'Helvatica Neue Medium';
 }
 p{
@@ -146,7 +145,7 @@ p{
     top: 10px;
     font-size: 12px;
     color: var(--color-primary);
-    background: #fff;
+    background: transparent;
     width: auto
 }
 

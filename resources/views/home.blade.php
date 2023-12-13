@@ -11,13 +11,13 @@
 </head>
 <body>
     
-    <x-header />
+    <x-header showLinks="true"/>
     <x-hero-section />
     <x-why-choose-us-section />
     <x-get-started />
     <x-how-it-works />
     <x-footer />
-
     <script src="{{ mix('js/app.js') }}"></script>
+    
 </body>
 </html>

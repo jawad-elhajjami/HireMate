@@ -3,7 +3,7 @@
             <div class="mb-10">
                 <h1 class="text-gray-800 text-2xl lg:text-4xl mb-10">How it works</h1>
                 <p class="text-gray-500 mb-10">It doesn’t take a lot of time, we spent a lot of time to make our platform user-friendly so any action that you want to perform is easy to do.</p>
-                <a href="" class="block w-[200px] text-center text-gray-800 px-10 py-4 hover:bg-green-400 hover:text-white duration-200 rounded-full border border-green-400 text-green-400">Get started</a>
+                <a href="/getStarted" class="block w-[200px] text-center text-gray-800 px-10 py-4 hover:bg-green-400 hover:text-white duration-200 rounded-full border border-green-400 text-green-400">Get started</a>
             </div>
             <div class="grid grid-cols-1  lg:grid-cols-2 gap-4 md:grid-cols-2">
                 <div class="border border-gray-200 p-4 rounded-md">

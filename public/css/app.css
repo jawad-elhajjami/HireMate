@@ -473,14 +473,6 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -503,8 +495,11 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-8 {
-  margin-top: 2rem;
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
 }
 .block {
   display: block;
@@ -524,17 +519,11 @@ video {
 .h-8 {
   height: 2rem;
 }
-.h-auto {
-  height: auto;
-}
 .min-h-\[40vh\] {
   min-height: 40vh;
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .w-12 {
   width: 3rem;
@@ -548,14 +537,11 @@ video {
 .w-\[200px\] {
   width: 200px;
 }
-.w-\[80\%\] {
-  width: 80%;
-}
 .w-full {
   width: 100%;
 }
-.max-w-3xl {
-  max-width: 48rem;
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 .max-w-screen-md {
   max-width: 768px;
@@ -574,6 +560,9 @@ video {
 }
 .justify-start {
   justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -617,14 +606,8 @@ video {
 .border {
   border-width: 1px;
 }
-.border-2 {
-  border-width: 2px;
-}
 .border-b {
   border-bottom-width: 1px;
-}
-.border-solid {
-  border-style: solid;
 }
 .border-gray-200 {
   --tw-border-opacity: 1;
@@ -638,17 +621,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
-.border-gray-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
-}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 .bg-green-200 {
   --tw-bg-opacity: 1;
@@ -693,9 +668,6 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
-.p-\[40px\] {
-  padding: 40px;
-}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -731,11 +703,14 @@ video {
 .pb-10 {
   padding-bottom: 2.5rem;
 }
-.pb-2 {
-  padding-bottom: 0.5rem;
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -749,16 +724,6 @@ video {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-.text-\[14px\] {
-  font-size: 14px;
-}
-.text-\[24px\] {
-  font-size: 24px;
-}
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -767,19 +732,8 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.font-medium {
-  font-weight: 500;
-}
 .font-semibold {
   font-weight: 600;
-}
-.text-\[\#4DD783\] {
-  --tw-text-opacity: 1;
-  color: rgb(77 215 131 / var(--tw-text-opacity));
-}
-.text-\[\#888\] {
-  --tw-text-opacity: 1;
-  color: rgb(136 136 136 / var(--tw-text-opacity));
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
@@ -828,7 +782,6 @@ video {
     --color-darkgray:#888888;
     --color-white:#ffffff;
     --color-bgColor:#F5F5F5;
-    
 }
 
 *{
@@ -868,7 +821,7 @@ footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
 }
 
-.site-logo, a,h1,h2,.number,h3{
+.site-logo, a,h1,h2,.number,h3,button{
     font-family: 'Helvatica Neue Medium';
 }
 p{
@@ -963,7 +916,7 @@ p{
     top: 10px;
     font-size: 12px;
     color: var(--color-primary);
-    background: #fff;
+    background: transparent;
     width: auto
 }
 
@@ -973,7 +926,7 @@ p{
     top: 10px;
     font-size: 12px;
     color: var(--color-primary);
-    background: #fff;
+    background: transparent;
     width: auto
 }
 
@@ -1000,6 +953,11 @@ p{
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -1034,6 +992,9 @@ p{
   }
   .lg\:w-\[50\%\] {
     width: 50%;
+  }
+  .lg\:min-w-\[500px\] {
+    min-width: 500px;
   }
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));

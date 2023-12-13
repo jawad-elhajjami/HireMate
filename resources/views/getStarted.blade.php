@@ -11,7 +11,7 @@
 </head>
 <body class="bg-gray-100">
     
-    <x-header /> 
+    <x-header showLinks="true"/> 
     @livewire('multi-step-form')
     <x-footer />
 
