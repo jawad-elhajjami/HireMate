@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class Header extends Component
 {
+    public $showLinks;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($showLinks)
     {
-        //
+        $this->showLinks = $showLinks;
     }
 
     /**
