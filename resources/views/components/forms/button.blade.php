@@ -1,3 +1,3 @@
 <div>
-    <!-- Life is available only in the present moment. - Thich Nhat Hanh -->
+    <!-- <button value="{{ $buttonName }}">{{ $buttonName }}</button> -->
 </div>

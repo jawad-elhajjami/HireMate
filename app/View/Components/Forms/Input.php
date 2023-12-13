@@ -13,7 +13,7 @@ class Input extends Component
         $this->inputType = $inputType;
         $this->inputName = $inputName;
     }
-    
+
     /**
      * Get the view / contents that represent the component.
      *
