@@ -29,8 +29,8 @@
                 <x-forms.input inputType="email" inputName="Email" wire:model="email"/>
                 <span class="text-xs text-[#D43E3E]">@error('email'){{ $message }}@enderror</span>
 
-                <x-forms.input inputType="text" inputName="Full Name" wire:model="full_name"/>
-                <span class="text-xs text-[#D43E3E]">@error('full_name'){{ $message }}@enderror</span>
+                <x-forms.input inputType="text" inputName="Full Name" wire:model="fullName"/>
+                <span class="text-xs text-[#D43E3E]">@error('fullName'){{ $message }}@enderror</span>
 
                 <x-forms.input inputType="text" inputName="Address" wire:model="address"/>
                 <span class="text-xs text-[#D43E3E]">@error('address'){{ $message }}@enderror</span>
@@ -81,9 +81,15 @@
             @endif
 
             <div class="grid grid-rows-1 gap-y-2 mt-[20px]">
-                <button class=" bg-[#4dd783] hover: w-full rounded-full py-[12px] text-white text-lg font-medium" type="button">Next</button>
-                <button class=" bg-[#EBF0EB] hover: w-full rounded-full py-[12px] text-[#2a2a2a] text-lg font-medium" type="button">Skip</button>
+                @if($currentStep == 1 || $currentStep == 2 || $currentStep == 3)
+                <button class=" bg-[#4dd783] hover: w-full rounded-full py-[12px] text-white text-lg font-medium" type="button" wire:click="increaseStep()">Next</button>
+                @endif
+                @if($currentStep == 4)
                 <button class=" bg-[#4dd783] hover: w-full rounded-full py-[12px] text-white text-lg font-medium" type="submit">Submit</button>
+                @endif
+                @if($currentStep == 2 || $currentStep == 3 || $currentStep == 4)
+                <button class=" bg-[#EBF0EB] hover: w-full rounded-full py-[12px] text-[#2a2a2a] text-lg font-medium" type="button" wire:click="increaseStepWithoutCheckingFields()">Skip</button>
+                @endif
             </div>
 
         </div>
