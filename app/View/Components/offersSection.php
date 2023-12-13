@@ -4,17 +4,16 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Header extends Component
+class offersSection extends Component
 {
-    public $showLinks;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($showLinks)
+    public function __construct()
     {
-        $this->showLinks = $showLinks;
+        //
     }
 
     /**
@@ -24,6 +23,6 @@ class Header extends Component
      */
     public function render()
     {
-        return view('components.header');
+        return view('components.offers-section');
     }
 }
