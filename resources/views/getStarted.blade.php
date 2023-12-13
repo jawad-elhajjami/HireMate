@@ -10,13 +10,8 @@
     @livewireStyles
 </head>
 <body class="bg-gray-100">
-<<<<<<< HEAD
-
-    <x-header /> 
-=======
-    
+ 
     <x-header showLinks="true"/> 
->>>>>>> 047c289022ff54bdb96b15a054de4ca5fe0725ed
     @livewire('multi-step-form')
     <x-footer />
 
