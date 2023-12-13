@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Get Started</title>
-    <!--Livewire fullstack framwork Style-->
+    <!--Livewire Style-->
     @livewireStyles
 </head>
 <body class="bg-gray-100">
+<<<<<<< HEAD
+
+    <x-header /> 
+=======
     
     <x-header showLinks="true"/> 
+>>>>>>> 047c289022ff54bdb96b15a054de4ca5fe0725ed
     @livewire('multi-step-form')
     <x-footer />
 
-    <!--Livewire fullstack framwork Script-->
+    <!--Livewire Script-->
     @livewireScripts
 </body>
 </html>
