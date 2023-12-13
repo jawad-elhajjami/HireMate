@@ -14,6 +14,7 @@
     --color-darkgray:#888888;
     --color-white:#ffffff;
     --color-bgColor:#F5F5F5;
+    --color-error:#D43E3E;
 }
 
 *{
@@ -53,10 +54,17 @@ footer {
     margin-top: auto; /* Push the footer to the bottom of the container */
 }
 
-.site-logo, a,h1,h2,.number,h3,button{
+.site-logo, 
+a,
+h1,
+h2,
+.number,
+h3,
+button{
     font-family: 'Helvatica Neue Medium';
 }
-p{
+p,
+.error{
     font-family: 'Helvatica Neue Light';
 }
 
@@ -149,3 +157,17 @@ p{
     width: auto
 }
 
+.custom-field.error,
+.custom-field.error .placeholder,
+.custom-field.one.error input:focus + .placeholder{
+    color: var(--color-error);
+}
+.custom-field.one.error input:focus{
+    box-shadow: 0px 0px 0px 3px #EFB9B9;
+    border-color: var(--color-error);
+}
+.custom-field.error input {
+    border-color: var(--color-error);
+    transition-delay: 0.1s;
+    box-shadow: 0px 0px 0px 3px #EFB9B9;
+}
