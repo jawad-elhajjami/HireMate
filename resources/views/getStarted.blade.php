@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Get Started</title>
+    @livewireStyles
 </head>
 <body class="bg-gray-100">
     <x-header /> 
@@ -27,5 +28,7 @@
         </div>
     </div>
     <x-footer />
+
+    @livewireScripts
 </body>
 </html>
