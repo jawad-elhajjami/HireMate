@@ -15,8 +15,8 @@
     @livewire('multi-step-form')
     <x-footer />
 
-    <script src="{{ mix('js/app.js') }}"></script>
     <!--Livewire Script-->
     @livewireScripts
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

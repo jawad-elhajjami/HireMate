@@ -54,7 +54,10 @@ class MultiStepForm extends Component
         }
         if($this->currentStep == 2){
             $this->validate([
-                
+                'educationDropDown'=>'required',
+                'statusDropDown'=>'required',
+                'startDate'=>'required',
+                'endDate'=>'required'
             ]);
         }
         if($this->currentStep == 3){

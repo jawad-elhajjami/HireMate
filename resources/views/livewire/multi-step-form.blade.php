@@ -46,20 +46,52 @@
                 <p class="text-[14px] text-[#888]">Give us a litte background about your education</p>
                 
                 <!--Drop-down for Education -->
-                <div class="wrapper-dropdown mt-[20px]" id="dropdown">
-                    <span class="selected-display" id="destination">Education Level</span>
-                    <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
-                        <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                    <ul class="dropdown">
-                        <li class="item">High school or equivalent</li>
-                        <li class="item">Bachelor's degree</li>
-                        <li class="item">Master's degree</li>
-                        <li class="item">Doctorate</li>
-                    </ul>
-                    <input type="hidden" class="hidden_input" value="">
-                </div>
+                <select class="mt-4 w-full py-[10px] px-[15px] border-[1px] border-[#d9d9d9] rounded-[5px] outline-none " name="EducationLevel">
+                    <option value="Education Level" disabled selected hidden>Education Level</option>
+                    <option value="High school or equivalent">High school or equivalent</option>
+                    <option value="Bachelor's degree">Bachelor's degree</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="Doctorate">Doctorate</option>
+                </select>
+                <span class="text-xs text-[#D43E3E]">@error('educationDropDown'){{ $message }}@enderror</span>
 
+                <!--Drop-down for Status -->
+                <select class="mt-4 w-full py-[10px] px-[15px] border-[1px] border-[#d9d9d9] rounded-[5px] outline-none " name="EducationLevel">
+                    <option value="Status" disabled selected hidden>Status</option>
+                    <option value="High school or equivalent">High school or equivalent</option>
+                    <option value="Bachelor's degree">Bachelor's degree</option>
+                    <option value="Master's degree">Master's degree</option>
+                    <option value="Doctorate">Doctorate</option>
+                </select>
+                <span class="text-xs text-[#D43E3E]">@error('statusDropDown'){{ $message }}@enderror</span>
+
+                <!--Date inputs html code-->
+                <div class="mt-4 flex items-center justify-between w-full gap-x-4">
+                    <!--Start Date-->
+                    <div class="date-container flex items-center justify-between w-full border-[1px] border-[#D9D9D9] rounded-[5px] py-[10px] px-[15px]">
+                        <input type="date" class="date-input" wire:model="startDate">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                            <rect x="3.38086" y="6" width="19.8095" height="15" rx="2" stroke="#888888" stroke-width="2"/>
+                            <path d="M4.48145 11H22.0899" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9.98389 16H16.5871" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M8.8833 3L8.8833 7" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M17.6875 3L17.6875 7" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="text-xs text-[#D43E3E]">@error('startDate'){{ $message }}@enderror</span>
+                    <!--End Date-->
+                    <div class="date-container flex items-center justify-between w-full border-[1px] border-[#D9D9D9] rounded-[5px] py-[15px] px-[20px]">
+                        <input type="date" class="date-input" wire:model="endDate">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                            <rect x="3.38086" y="6" width="19.8095" height="15" rx="2" stroke="#888888" stroke-width="2"/>
+                            <path d="M4.48145 11H22.0899" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M9.98389 16H16.5871" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M8.8833 3L8.8833 7" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M17.6875 3L17.6875 7" stroke="#888888" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="text-xs text-[#D43E3E]">@error('endDate'){{ $message }}@enderror</span>
+                </div>
             </div>
             @endif
 
