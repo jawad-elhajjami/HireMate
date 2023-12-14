@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use App\Http\Requests\StoreEmployerRequest;
 use App\Http\Requests\UpdateEmployerRequest;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class EmployerController extends Controller
 {
@@ -71,7 +71,7 @@ class EmployerController extends Controller
     }
 
     public function deleteEmployer($id)
-{
+    {
     $employer = Employer::find($id);
 
     if (!$employer) {

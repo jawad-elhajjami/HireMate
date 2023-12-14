@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\StoreCandidateRequest;
 use App\Http\Requests\UpdateCandidateRequest;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 
 class CandidateController extends Controller
