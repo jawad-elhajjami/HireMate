@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\Condidate;
+use App\Models\JobRequest;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class CondidatePolicy
+class JobRequestPolicy
 {
     use HandlesAuthorization;
 
@@ -25,10 +25,10 @@ class CondidatePolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobRequest  $JobRequest
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(User $user, Condidate $condidate)
+    public function view(User $user, JobRequest $JobRequest)
     {
         //
     }
@@ -48,10 +48,10 @@ class CondidatePolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobRequest  $JobRequest
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, Condidate $condidate)
+    public function update(User $user, JobRequest $JobRequest)
     {
         //
     }
@@ -60,10 +60,10 @@ class CondidatePolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobRequest  $JobRequest
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, Condidate $condidate)
+    public function delete(User $user, JobRequest $JobRequest)
     {
         //
     }
@@ -72,10 +72,10 @@ class CondidatePolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobRequest  $JobRequest
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, Condidate $condidate)
+    public function restore(User $user, JobRequest $JobRequest)
     {
         //
     }
@@ -84,10 +84,10 @@ class CondidatePolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobRequest  $JobRequest
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, Condidate $condidate)
+    public function forceDelete(User $user, JobRequest $JobRequest)
     {
         //
     }

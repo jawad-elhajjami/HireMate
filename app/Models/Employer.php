@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Employer extends Model
 {
     use HasFactory;
+    protected $table = 'employers';
+    protected $primerykey = 'idEmployer';
     protected $fillable = [
         'id_user',
         'companyName',

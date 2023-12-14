@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Condidate;
-use App\Http\Requests\StoreCondidateRequest;
-use App\Http\Requests\UpdateCondidateRequest;
+use App\Models\JobOffer;
+use App\Http\Requests\StoreJobOfferRequest;
+use App\Http\Requests\UpdateJobOfferRequest;
 
-class CondidateController extends Controller
+class JobOfferController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class CondidateController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreCondidateRequest  $request
+     * @param  \App\Http\Requests\StoreJobOfferRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreCondidateRequest $request)
+    public function store(StoreJobOfferRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class CondidateController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobOffer  $jobOffer
      * @return \Illuminate\Http\Response
      */
-    public function show(Condidate $condidate)
+    public function show(JobOffer $jobOffer)
     {
         //
     }
@@ -53,10 +53,10 @@ class CondidateController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobOffer  $jobOffer
      * @return \Illuminate\Http\Response
      */
-    public function edit(Condidate $condidate)
+    public function edit(JobOffer $jobOffer)
     {
         //
     }
@@ -64,11 +64,11 @@ class CondidateController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateCondidateRequest  $request
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Http\Requests\UpdateJobOfferRequest  $request
+     * @param  \App\Models\JobOffer  $jobOffer
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateCondidateRequest $request, Condidate $condidate)
+    public function update(UpdateJobOfferRequest $request, JobOffer $jobOffer)
     {
         //
     }
@@ -76,10 +76,10 @@ class CondidateController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Condidate  $condidate
+     * @param  \App\Models\JobOffer  $jobOffer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Condidate $condidate)
+    public function destroy(JobOffer $jobOffer)
     {
         //
     }

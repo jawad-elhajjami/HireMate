@@ -2,11 +2,11 @@
 
 namespace App\Policies;
 
-use App\Models\JobPosting;
+use App\Models\Candidate;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class JobPostingPolicy
+class CandidatePolicy
 {
     use HandlesAuthorization;
 
@@ -25,10 +25,10 @@ class JobPostingPolicy
      * Determine whether the user can view the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\JobPosting  $jobPosting
+     * @param  \App\Models\Candidate  $Candidate
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(User $user, JobPosting $jobPosting)
+    public function view(User $user, Candidate $Candidate)
     {
         //
     }
@@ -48,10 +48,10 @@ class JobPostingPolicy
      * Determine whether the user can update the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\JobPosting  $jobPosting
+     * @param  \App\Models\Candidate  $Candidate
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, JobPosting $jobPosting)
+    public function update(User $user, Candidate $Candidate)
     {
         //
     }
@@ -60,10 +60,10 @@ class JobPostingPolicy
      * Determine whether the user can delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\JobPosting  $jobPosting
+     * @param  \App\Models\Candidate  $Candidate
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, JobPosting $jobPosting)
+    public function delete(User $user, Candidate $Candidate)
     {
         //
     }
@@ -72,10 +72,10 @@ class JobPostingPolicy
      * Determine whether the user can restore the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\JobPosting  $jobPosting
+     * @param  \App\Models\Candidate  $Candidate
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, JobPosting $jobPosting)
+    public function restore(User $user, Candidate $Candidate)
     {
         //
     }
@@ -84,10 +84,10 @@ class JobPostingPolicy
      * Determine whether the user can permanently delete the model.
      *
      * @param  \App\Models\User  $user
-     * @param  \App\Models\JobPosting  $jobPosting
+     * @param  \App\Models\Candidate  $Candidate
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, JobPosting $jobPosting)
+    public function forceDelete(User $user, Candidate $Candidate)
     {
         //
     }
