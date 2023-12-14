@@ -1,15 +1,16 @@
 require('./bootstrap');
 
-// ----------------------------------- VARIABLES --------------------------------------------------------
+// ----------------------------------- VARUABLES --------------------------------------------------------
 
 // { VIEW: employer-home }
 let offerDescription = document.getElementById('offer-description');
-
+let icLike = document.querySelectorAll('.ic-heart');
 
 // ----------------------------------- LISTNERS --------------------------------------------------------
 
 // { VIEW: employer-home }
 offerDescription.addEventListener("scroll", (e) => blurDev(e));
+icLike.forEach(e => e.addEventListener("click", (e) => likeOffer(e)));
 
 
 // ----------------------------------- FUNCTIONS --------------------------------------------------------
@@ -24,4 +25,9 @@ let blurDev = (e) => {
     } else {
         e.target.classList.replace("blur-dev", "not-blur-dev");
     }
+}
+
+// { VIEW: employer-home }
+let likeOffer = (e) => {
+    e.target.getAttribute('src') == "images/ic-empty-heart.png" ? e.target.src = "images/ic-full-heart.png" : e.target.src = "images/ic-empty-heart.png";
 }

@@ -41,11 +41,8 @@
                                 </svg>                                        
                             </span>
                         </p>  
-                        <div class="ic-like">
-                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                                <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" stroke="#4DD783"/>
-                            </svg> 
+                        <div class="ic-like-container">
+                            <img class="ic-heart" src="images/ic-empty-heart.png" alt="ic-heart" width="37" height="37">                            
                         </div>                                                                   
                     </div>
                     <div class="name-type-salary-date">
@@ -78,11 +75,8 @@
                                 </svg>                                        
                             </span>
                         </p>  
-                        <div class="ic-like">
-                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                                <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" fill="#4DD783" stroke="#4DD783" stroke-width="2"/>
-                            </svg>                                         
+                        <div class="ic-like-container">
+                            <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">                                         
                         </div>                                                                   
                     </div>
                     <div class="name-type-salary-date">
@@ -115,11 +109,8 @@
                                 </svg>                                        
                             </span>
                         </p>  
-                        <div class="ic-like">
-                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                                <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" stroke="#4DD783"/>
-                            </svg> 
+                        <div class="ic-like-container">
+                            <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">  
                         </div>                                                                   
                     </div>
                     <div class="name-type-salary-date">
@@ -152,11 +143,8 @@
                                 </svg>                                        
                             </span>
                         </p>  
-                        <div class="ic-like">
-                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                                <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" stroke="#4DD783"/>
-                            </svg> 
+                        <div class="ic-like-container">
+                            <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37"> 
                         </div>                                                                   
                     </div>
                     <div class="name-type-salary-date">
@@ -189,11 +177,8 @@
                                 </svg>                                        
                             </span>
                         </p>  
-                        <div class="ic-like">
-                            <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                                <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" stroke="#4DD783"/>
-                            </svg> 
+                        <div class="ic-like-container">
+                            <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
                         </div>                                                                   
                     </div>
                     <div class="name-type-salary-date">
@@ -208,7 +193,7 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div>        
         <div class="content-details hidden sm:block blur-dev" id="offer-description">
             <div class="content-title">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -222,16 +207,13 @@
                 </svg>                                    
                 <h3>Amazon</h3>  
                 <div class="btns">
-                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="ic-report" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="37" height="37" rx="18.5" fill="#EBF0EB"/>
                         <circle cx="18.5" cy="18.5" r="9" stroke="#4DD783"/>
                         <path d="M24.5 24.5L12.5 12.5" stroke="#4DD783"/>
                     </svg>                                
-                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="18.5" cy="18.5" r="18.5" fill="#EBF0EB"/>
-                        <path d="M10.4507 20.9082L17.4033 27.4395C17.6428 27.6644 17.7625 27.7769 17.9037 27.8046C17.9673 27.8171 18.0327 27.8171 18.0963 27.8046C18.2375 27.7769 18.3572 27.6644 18.5967 27.4395L25.5493 20.9082C27.5055 19.0706 27.743 16.0466 26.0978 13.9261L25.7885 13.5273C23.8203 10.9906 19.8696 11.416 18.4867 14.3137C18.2913 14.723 17.7087 14.723 17.5133 14.3137C16.1304 11.416 12.1797 10.9906 10.2115 13.5273L9.90219 13.9261C8.25695 16.0466 8.4945 19.0706 10.4507 20.9082Z" stroke="#4DD783"/>
-                    </svg> 
-                    <button class="bg-[var(--color-primary)] px-10 py-2 rounded-full text-white">Apply</button>
+                    <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
+                    <button class="bg-[var(--color-primary)] border-[1px] px-10 py-2 rounded-full text-white hover:bg-transparent hover:border-[var(--color-primary)] hover:border-[1px] hover:text-[var(--color-primary)] duration-200">Apply</button>
                 </div>                        
             </div>
             <h3>Software Developer</h3>
@@ -258,5 +240,6 @@
                     Minimum Education Requirement: This position requires minimum of Bachelor’s degree in computer science, computer information systems, information technology, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects.
                 </p>
             </div>
-        </div>
+        </div>        
+    </div>
 </div>
