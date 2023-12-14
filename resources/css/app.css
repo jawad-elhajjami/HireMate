@@ -425,6 +425,17 @@ p,
     border-radius: 30px;
 }
 
+.blur-dev {
+    --mask: linear-gradient(to bottom, 
+        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 80%, 
+        rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
+    ) 100% 50% / 100% 100% repeat-x;
+    
+    -webkit-mask: var(--mask); 
+    mask: var(--mask);
+}
+
+
 .content-details .content-title {
     display: flex;    
     align-items: center;  
