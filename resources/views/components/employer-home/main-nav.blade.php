@@ -1,4 +1,4 @@
-<div>
+<div class="m-10">
     <nav class="slidemenu">
         <!-- Item 1 -->
         <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
@@ -18,4 +18,5 @@
             <div class="bar"></div>
         </div>
     </nav>
+    <hr>
 </div>

@@ -487,6 +487,15 @@ video {
 .z-\[9999\] {
   z-index: 9999;
 }
+.m-8 {
+  margin: 2rem;
+}
+.m-0 {
+  margin: 0px;
+}
+.m-10 {
+  margin: 2.5rem;
+}
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -510,6 +519,10 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -649,6 +662,9 @@ video {
 }
 .rotate-90 {
   --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .grid-cols-1 {
@@ -1272,41 +1288,283 @@ p,
 .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 6.7%; }
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 39.5%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 73%; }
+
+/*---------------------------------------- MAIN CONTENT -----------------------------------*/
+.job-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.job-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+}
+
+.job-name h3 {
+    font-family: 'Helvatica Neue Medium';
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32.16px;
+}
+
+.job-name p {
+    font-family: 'Helvatica Neue light';
+    font-size: 16px;
+    line-height: 21.44px;
+    font-weight: 300;
+    color: #888;
+}
+
+.job-filter {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.job-filter button {
+    font-family: 'Helvatica Neue Medium';
+    display: flex;
+    font-weight: 300;
+    padding: 1.5% 4%;
+    background-color: var(--color-lightgreen-1);
+    color: var(--color-text);
+    border-radius: 30px;
+    border: 1px var(--color-lightgray) solid;
+}
+
+.job-filter button:hover {
+    background-color: var(--color-lightgray);
+    transition: all .2s ease-in-out;
+}
+
+.job-filter .filter-icon {
+    margin-block: auto;
+    margin-right: 10px;
+}
+
+.main-content {
+    display: flex;
+    align-items: start;    
+}
+
+.list-content-container {
+    flex: 1;
+    max-height: 585px; 
+    overflow-y: scroll;
+    padding-right: 3%;
+}
+
+.list-content-container::-webkit-scrollbar{
+    width:8px;
+}
+.list-content-container::-webkit-scrollbar-thumb{
+    background-color:var(--color-primary);
+    border-radius: 30px;
+}
+
+.content-details {
+    flex: 1;
+}
+
+.list-content {
+    list-style: none;
+}
+
+.list-content li {
+    font-family: 'Helvatica Neue Medium';
+    padding: 2% 5%;
+    border-bottom: .5px solid var(--color-lightgray);    
+}
+
+.list-content .checked {
+    border-left: 5px solid var(--color-primary);
+}
+
+.list-content li h3 {    
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-content li p {
+    font-size: 14px;
+}
+
+.ic-name-rating-like {
+    display: flex;        
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3%;
+}
+
+.ic-name-rating-like .ic-like {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.name-type-salary-date {
+    display: flex;
+}
+
+.name-type-salary-date .name-type-salary {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.name-type-salary-date .name-type-salary h3 {
+    font-family: 'Helvatica Neue Medium';
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+.name-type-salary-date .name-type-salary p:first-of-type {
+    font-size: 14;
+    font-family: 'Helvatica Neue Light';
+    font-weight: 300;
+    color: #888; 
+    margin-top: 2%;
+}
+
+.name-type-salary-date .name-type-salary p:not(first-of-type) {
+    font-size: 16;
+    font-family: 'Helvatica Neue Medium';
+    font-weight: 500;
+    color: var(--color-primary); 
+    margin-top: 1%;
+}
+
+.name-type-salary-date .date {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex: 1;
+    font-size: 14;
+    font-family: 'Helvatica Neue Light';
+    font-weight: 300;
+    color: #888;    
+}
+
+.content-details {
+    font-family: 'Helvatica Neue Medium';  
+    border-left: 1px solid var(--color-lightgray);  
+    margin-left: 2%;
+    padding-right: 2%;
+    max-width: 50%;
+    max-height: 585px;
+    overflow-y: scroll;    
+}
+
+.content-details::-webkit-scrollbar{
+    width:8px;
+}
+.content-details::-webkit-scrollbar-thumb{
+    background-color:var(--color-lightgray);
+    border-radius: 30px;
+}
+
+.content-details .content-title {
+    display: flex;    
+    align-items: center;  
+    margin-left: 5%;
+}
+
+.content-details .content-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2%;    
+}
+
+
+.content-details .content-title .btns {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+    gap: 8px;
+}
+
+.content-details .content-title ~ h3 {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.content-details .content-title ~ p {
+    font-size: 14;
+    font-family: 'Helvatica Neue Light';
+    font-weight: 400;
+    color: #888;   
+    margin-left: 5%;
+}
+
+.content-details .content-title ~ hr {
+    border: none;
+    height: 5px;
+    background-color: var(--color-lightgray);
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-inline: 0;
+}
+
+.content-details .content-description {
+    padding-inline: 4%;
+    font-size: 14;
+    font-family: 'Helvatica Neue Light';
+    font-weight: 550;
+    line-height: 1.5;
+}
+
 .hover\:border-green-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+
 .hover\:bg-gray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
+
 .hover\:bg-green-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
+
 .hover\:bg-green-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
+
 @media (min-width: 640px) {
   .sm\:static {
     position: static;
@@ -1360,11 +1618,13 @@ p,
     line-height: 1.75rem;
   }
 }
+
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
 @media (min-width: 1024px) {
   .lg\:order-2 {
     order: 2;
