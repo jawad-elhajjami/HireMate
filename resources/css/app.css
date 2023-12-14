@@ -64,8 +64,14 @@ button{
     font-family: 'Helvatica Neue Medium';
 }
 p,
-.error{
+.error,
+select{
     font-family: 'Helvatica Neue Light';
+}
+
+select:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(77, 215, 131, 0.20);
 }
 
 .hero-section::before {
@@ -425,17 +431,6 @@ p,
     border-radius: 30px;
 }
 
-.blur-dev {
-    --mask: linear-gradient(to bottom, 
-        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 80%, 
-        rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
-    ) 100% 50% / 100% 100% repeat-x;
-    
-    -webkit-mask: var(--mask); 
-    mask: var(--mask);
-}
-
-
 .content-details .content-title {
     display: flex;    
     align-items: center;  
@@ -487,4 +482,59 @@ p,
     font-family: 'Helvatica Neue Light';
     font-weight: 550;
     line-height: 1.5;
+}
+
+
+/* Custom checkbox */
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+}
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--color-primary);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }

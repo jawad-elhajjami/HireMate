@@ -1094,8 +1094,14 @@ button{
     font-family: 'Helvatica Neue Medium';
 }
 p,
-.error{
+.error,
+select{
     font-family: 'Helvatica Neue Light';
+}
+
+select:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(77, 215, 131, 0.20);
 }
 
 .hero-section::before {
@@ -1470,17 +1476,6 @@ p,
     border-radius: 30px;
 }
 
-.blur-dev {
-    --mask: linear-gradient(to bottom, 
-        rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 80%, 
-        rgba(0,0,0, 0) 100%, rgba(0,0,0, 0) 0
-    ) 100% 50% / 100% 100% repeat-x;
-    
-    -webkit-mask: var(--mask); 
-    mask: var(--mask);
-}
-
-
 .content-details .content-title {
     display: flex;    
     align-items: center;  
@@ -1534,50 +1529,92 @@ p,
     line-height: 1.5;
 }
 
+
+/* Custom checkbox */
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+}
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--color-primary);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+}
 .hover\:border-green-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
-
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-gray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-green-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-green-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
-
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
-
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
-
 @media (min-width: 640px) {
   .sm\:static {
     position: static;
@@ -1634,7 +1671,6 @@ p,
     line-height: 1.75rem;
   }
 }
-
 @media (min-width: 768px) {
   .md\:w-full {
     width: 100%;
@@ -1643,7 +1679,6 @@ p,
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:order-2 {
     order: 2;
@@ -1707,4 +1742,3 @@ p,
     line-height: 1;
   }
 }
-
