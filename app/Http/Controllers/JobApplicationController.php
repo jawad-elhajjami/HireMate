@@ -42,10 +42,10 @@ class JobApplicationController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\JobApplication  $jobApplication
+     * @param  \App\Models\JobApplication  $JobApplication
      * @return \Illuminate\Http\Response
      */
-    public function show(JobApplication $jobApplication)
+    public function show(JobApplication $JobApplication)
     {
         //
     }
@@ -53,10 +53,10 @@ class JobApplicationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\JobApplication  $jobApplication
+     * @param  \App\Models\JobApplication  $JobApplication
      * @return \Illuminate\Http\Response
      */
-    public function edit(JobApplication $jobApplication)
+    public function edit(JobApplication $JobApplication)
     {
         //
     }
@@ -65,10 +65,10 @@ class JobApplicationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \App\Http\Requests\UpdateJobApplicationRequest  $request
-     * @param  \App\Models\JobApplication  $jobApplication
+     * @param  \App\Models\JobApplication  $JobApplication
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateJobApplicationRequest $request, JobApplication $jobApplication)
+    public function update(UpdateJobApplicationRequest $request, JobApplication $JobApplication)
     {
         //
     }
@@ -76,11 +76,12 @@ class JobApplicationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\JobApplication  $jobApplication
+     * @param  \App\Models\JobApplication  $JobApplication
      * @return \Illuminate\Http\Response
      */
-    public function destroy(JobApplication $jobApplication)
+    public function destroy(JobApplication $JobApplication)
     {
         //
     }
 }
+

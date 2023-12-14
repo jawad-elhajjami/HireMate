@@ -11,6 +11,7 @@
 <body>
     <x-employer-home.header showLinks="true"/>
     <x-employer-home.search-section />
+    <x-employer-home.main-nav />
     <x-footer />
 
     <script src="{{ mix('js/app.js') }}"></script>
