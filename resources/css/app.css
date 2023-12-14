@@ -245,3 +245,106 @@ p,
 .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 6.7%; }
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 39.5%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 73%; }
+
+/* the code below is for the dropdown menu */
+.wrapper-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:  100%;
+    padding: 0px 0px 0px 0px;
+    min-height: 50px;
+    border-radius: 4px;
+    background: var(--color-white);
+    text-align: left;
+    color: #888;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 20px;
+    font-family: 'Helvatica Neue Light';
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    rotate: 180deg;
+}
+.selected-display {
+    margin-left: 20px;
+}
+svg {
+    transition: all 0.3s;
+}
+.wrapper-dropdown::before {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+
+    margin-top: -2px;
+
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+.rotated {
+transform: rotate(-180deg);
+}
+.wrapper-dropdown .dropdown {
+    transition: 0.3s;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 99;
+    border-radius: 15px;
+    box-shadow: inherit;
+    background: inherit;
+
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    opacity: 0;
+    visibility: hidden;
+}
+.wrapper-dropdown .dropdown li {
+    padding: 0 15px;
+    line-height: 45px;
+    overflow: hidden;
+    font-family: 'Helvatica Neue Light';
+}
+.wrapper-dropdown .dropdown li:last-child {
+    border-bottom: none;
+}
+.dropdown {
+    padding: 0.5rem !important;
+}
+.wrapper-dropdown .dropdown li:hover {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.wrapper-dropdown.active .dropdown {
+    opacity: 1;
+    visibility: visible;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}

@@ -4,18 +4,18 @@
         <h1 class="text-4xl text-center pb-2">Ready to take your career to the next level ?</h1>
         <p class="text-base w-1/2 my-0 mx-auto text-center">Fill out your informations in the form below, it takes only a few moments.</p>
         <div class="bg-white w-[80%] mx-auto rounded-md h-auto p-[40px] border-solid border-2 border-gray-100 mt-8">
-            <div class="flex items-center justify-center w-full h-[5px] gap-x-3.5 mb-6">
+            <div class="@if($currentStep == 5) hidden @else flex @endif items-center justify-center w-full h-[5px] gap-x-3.5 mb-6">
                 <div class="bg-[#4dd7834d] rounded-full w-[25%] h-full overflow-hidden">
                     <div class="bg-[#4DD783] w-full h-full"></div>
                 </div>
                 <div class="bg-[#4dd7834d] rounded-full w-[25%] h-full overflow-hidden">
-                    <div class="bg-transparent w-full h-full"></div>
+                    <div class="@if($currentStep >= 2) bg-[#4DD783] @else bg-transparent @endif w-full h-full"></div>
                 </div>
                 <div class="bg-[#4dd7834d] rounded-full w-[25%] h-full overflow-hidden">
-                    <div class="bg-transparent w-full h-full"></div>
+                    <div class="@if($currentStep >= 3) bg-[#4DD783] @else bg-transparent @endif w-full h-full"></div>
                 </div>
                 <div class="bg-[#4dd7834d] rounded-full w-[25%] h-full overflow-hidden">
-                    <div class="bg-transparent w-full h-full"></div>
+                    <div class="@if($currentStep >= 4) bg-[#4DD783] @else bg-transparent @endif w-full h-full"></div>
                 </div>
             </div>
                 
@@ -45,10 +45,21 @@
                 <h2 class="text-[24px] text-[#4DD783] pb-2 font-medium">Add Education</h2>
                 <p class="text-[14px] text-[#888]">Give us a litte background about your education</p>
                 
-                <x-forms.input inputType="email" inputName="Email"/>
-                <x-forms.input inputType="text" inputName="Full Name"/>
-                <x-forms.input inputType="text" inputName="Address"/>
-                
+                <!--Drop-down for Education -->
+                <div class="wrapper-dropdown mt-[20px]" id="dropdown">
+                    <span class="selected-display" id="destination">Education Level</span>
+                    <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
+                        <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <ul class="dropdown">
+                        <li class="item">High school or equivalent</li>
+                        <li class="item">Bachelor's degree</li>
+                        <li class="item">Master's degree</li>
+                        <li class="item">Doctorate</li>
+                    </ul>
+                    <input type="hidden" class="hidden_input" value="">
+                </div>
+
             </div>
             @endif
 
@@ -59,9 +70,7 @@
                 <h2 class="text-[24px] text-[#4DD783] pb-2 font-medium">Add Experience</h2>
                 <p class="text-[14px] text-[#888]">Give us a litte background about your experience</p>
                 
-                <x-forms.input inputType="email" inputName="Email"/>
-                <x-forms.input inputType="text" inputName="Full Name"/>
-                <x-forms.input inputType="text" inputName="Address"/>
+                
                 
             </div>
             @endif
@@ -73,9 +82,7 @@
                 <h2 class="text-[24px] text-[#4DD783] pb-2 font-medium">Upload resume</h2>
                 <p class="text-[14px] text-[#888]">Upload your own resume to help your applications stand out</p>
                 
-                <x-forms.input inputType="email" inputName="Email"/>
-                <x-forms.input inputType="text" inputName="Full Name"/>
-                <x-forms.input inputType="text" inputName="Address"/>
+                
                 
             </div>
             @endif

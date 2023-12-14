@@ -10,10 +10,12 @@
     @livewireStyles
 </head>
 <body class="bg-gray-100">
+
     <x-header showLinks="true"/> 
     @livewire('multi-step-form')
     <x-footer />
 
+    <script src="{{ mix('js/app.js') }}"></script>
     <!--Livewire Script-->
     @livewireScripts
 </body>
