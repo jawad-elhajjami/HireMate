@@ -11,8 +11,8 @@
     <span class="h-px flex w-100 bg-gray-300 mt-10 mb-10"></span>
     <p class="text-md text-center mb-3">Need to create an account sign up as :</p>
     <div class="flex items-center justify-center gap-10">
-        <a href="#" class="text-green-400 hover:text-gray-800 duration-200">Job seeker</a>
+        <a href="{{ route('GetStarted') }}" class="text-green-400 hover:text-gray-800 duration-200">Job seeker</a>
         <span class="h-4 w-px bg-gray-300"></span>
-        <a href="#" class="text-green-400 hover:text-gray-800 duration-200">Employer</a>
+        <a href="{{ route('employer-getStarted') }}" class="text-green-400 hover:text-gray-800 duration-200">Employer</a>
     </div>       
 </form>
