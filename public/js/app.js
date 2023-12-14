@@ -2062,6 +2062,32 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+// ----------------------------------- VARIABLES --------------------------------------------------------
+
+// { VIEW: employer-home }
+var offerDescription = document.getElementById('offer-description');
+
+// ----------------------------------- LISTNERS --------------------------------------------------------
+
+// { VIEW: employer-home }
+offerDescription.addEventListener("scroll", function (e) {
+  return blurDev(e);
+});
+
+// ----------------------------------- FUNCTIONS --------------------------------------------------------
+
+// { VIEW: employer-home }
+var blurDev = function blurDev(e) {
+  scrollPos = offerDescription.scrollTop;
+  if (scrollPos == 0) {
+    e.target.classList.replace("not-blur-dev", "blur-dev");
+  } else if (scrollPos <= 0) {
+    e.target.classList.replace("not-blur-dev", "blur-dev");
+  } else {
+    e.target.classList.replace("blur-dev", "not-blur-dev");
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
