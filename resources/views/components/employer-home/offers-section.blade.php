@@ -5,7 +5,7 @@
             <p>Showing 30 out of 307</p>
         </div>
         <div class="job-filter">
-            <button class="btn-filter">
+            <button class="btn-filter" id="btn-filters">
                 <span class="filter-icon">
                     <svg width="20" height="12" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 2.8H21V4.2H0V2.8Z" fill="#222222"/>
@@ -33,9 +33,9 @@
                             <image id="image0_118_2704" width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX1ZgD////1YgD0WQD1YwD1XQD1XgD0VQD97Ob0VAD81cf4oX76vaf//fz+8Ov94tn4mHD6wq35qYr3kmf3h1X5sJT1bR7959/1axf3jmD3hE/+9fL3kWX83NH7zr72gUn6uaD2dTP7yLb82Mz5r5L5pob2civ7y7r2ez72fUH4l2/MLaGIAAAD0klEQVR4nO3ZWVviMBiG4TYrXdhBoQhUQEf9/z9wujHs6NhAx7me+8QLDpK8JE3zRc8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvkAJo2VFa6OaHo9jRtvnXrqYt0phf7CU+v8JKaQarNv+kfbi1dRsWGntZIA1GTmcH6erjEStltVruPIaz6hsNLuQz/cX9Yan11kbqa27Euoxz48X8/l+S9ZrPC5We2TrLYVaRO9KvtoJPbkomukMm8soO9swndY8zHU7DhN6QVw29DhtKqOIuv1xNH1QtngJZrI/o3CbsFs3oWdf/G3GoJmMQmojxOGLTwRpNaxf9TdCPfqzIHoN7zl71Gs1qLGDIZmH3ZMw+GcyBtWQPlwsLCX/rHrfjyeyuY1VZc9g9RPrajwTNy0Hm73dKxw1NJHGvq1arah48NSyHMzMOmpcv++fKjpjc/eJzM6PUfnmn+Zdm6gcysrZiUvovZWaT+T0nud6ZWyy2nbdz1eQ7pcfhg5/aRsdRPTb/cTep0IzcpLuveSLOZSt8kPtt+FBR173MKPfSd/sjWdSGeltDvpNi1CiWkqOy4LgaBrzkP1E3uyZFMa+jg9/1vaoDNjbm0+XjLc+yZiVoZGSxnVXymg5ijtHfa1F2Y8uz8vOdtK9fu30bKn2GE+tu5Qqv7DYnP6Y7d42UfU23NzitSVsetJzqRs/KVv7ekgYad8Hi3O/40pvA4lh+c2NinPthWe6L3VWg3edn5S/kVOZbOomw/TCfcXjcrdvVovUxZn0PLk83lUPY4bjp4cgv+77WtDyjtAuo3h+8bYiW6B7bZniu1lwq4DF49i6ljGXX/c9PXu2uNk0WVi1N8Tsg8i+zGs9O3kbblaXsxU2BwfF6kDj8m1/StinTzNWSedhP36JPpJkJLbMe5IMo5e4H3a/0kpqDpejLJbQ2v1GepQxGF5dq660x+ZoQylrw/YdTsbCLi/vOY60XuTJdqKLm5XlXc7+Sk7ik4toh9ZnCzWZd9m71zVuVpN+3GixztLzxXZxYovueU8tsqP/9Z3wOxaj4MLhwQyybfTOF/FZ+bbsuwy5GEp9+TEzH14DlwxKB8nJOflbZqur8XJNXRRlMzkZnKk9/sZ8/Gw/idesvORJxvNvba/teTqS8if8X7cofaL+X22w3VX0HGjnNeYNKaGlfXgaf3bc9GfdX5vpxMqf+T/5omSw+iHJDqBxmJ1Ad8LsqDqIkonOs/2gmTtvV0Xs6Lzc+E4NCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgJ/jN9maKoZbSZeQAAAAAElFTkSuQmCC"/>
                             </defs>
                         </svg>
-                        <h3>Amazon</h3>  
-                        <p>4.6 
-                            <span>
+                        <h3>Amazon</h3>
+                        <p class="flex">4.6 
+                            <span class="my-auto ml-1">
                                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5316 1.5848C3.94197 0.528266 4.14716 0 4.5 0C4.85284 0 5.05803 0.528266 5.4684 1.5848L5.48751 1.634C5.71935 2.23089 5.83528 2.52933 6.07153 2.71073C6.30778 2.89213 6.61791 2.92081 7.23818 2.97818L7.35031 2.98855C8.36545 3.08244 8.87302 3.12938 8.98163 3.46287C9.09023 3.79636 8.71329 4.15052 7.95941 4.85884L7.7078 5.09524C7.32617 5.4538 7.13535 5.63308 7.04642 5.86806C7.02983 5.91189 7.01603 5.9568 7.00513 6.00249C6.94667 6.24745 7.00255 6.50753 7.1143 7.0277L7.14909 7.18961C7.35447 8.14558 7.45716 8.62356 7.27786 8.82973C7.21086 8.90677 7.12378 8.96224 7.02705 8.98949C6.76818 9.06244 6.40065 8.75316 5.66559 8.1346C5.18293 7.72843 4.94159 7.52534 4.66452 7.47966C4.55553 7.46168 4.44447 7.46168 4.33548 7.47966C4.0584 7.52534 3.81707 7.72843 3.33441 8.1346C2.59935 8.75316 2.23182 9.06244 1.97295 8.98949C1.87622 8.96224 1.78914 8.90677 1.72214 8.82973C1.54284 8.62356 1.64553 8.14558 1.85092 7.18961L1.8857 7.0277C1.99745 6.50753 2.05333 6.24745 1.99487 6.00249C1.98397 5.9568 1.97017 5.91189 1.95358 5.86806C1.86465 5.63308 1.67383 5.4538 1.2922 5.09524L1.04059 4.85884C0.28671 4.15052 -0.0902328 3.79636 0.0183748 3.46287C0.126982 3.12938 0.634552 3.08244 1.64969 2.98855L1.76182 2.97818C2.38209 2.92081 2.69222 2.89213 2.92847 2.71073C3.16472 2.52933 3.28065 2.23089 3.51249 1.634L3.5316 1.5848Z" fill="#222222"/>
                                 </svg>                                        
@@ -68,8 +68,8 @@
                             </defs>
                         </svg>                                                                        
                         <h3>IBM</h3>  
-                        <p>4.8 
-                            <span>
+                        <p class="flex">4.8 
+                            <span class="my-auto ml-1">
                                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5316 1.5848C3.94197 0.528266 4.14716 0 4.5 0C4.85284 0 5.05803 0.528266 5.4684 1.5848L5.48751 1.634C5.71935 2.23089 5.83528 2.52933 6.07153 2.71073C6.30778 2.89213 6.61791 2.92081 7.23818 2.97818L7.35031 2.98855C8.36545 3.08244 8.87302 3.12938 8.98163 3.46287C9.09023 3.79636 8.71329 4.15052 7.95941 4.85884L7.7078 5.09524C7.32617 5.4538 7.13535 5.63308 7.04642 5.86806C7.02983 5.91189 7.01603 5.9568 7.00513 6.00249C6.94667 6.24745 7.00255 6.50753 7.1143 7.0277L7.14909 7.18961C7.35447 8.14558 7.45716 8.62356 7.27786 8.82973C7.21086 8.90677 7.12378 8.96224 7.02705 8.98949C6.76818 9.06244 6.40065 8.75316 5.66559 8.1346C5.18293 7.72843 4.94159 7.52534 4.66452 7.47966C4.55553 7.46168 4.44447 7.46168 4.33548 7.47966C4.0584 7.52534 3.81707 7.72843 3.33441 8.1346C2.59935 8.75316 2.23182 9.06244 1.97295 8.98949C1.87622 8.96224 1.78914 8.90677 1.72214 8.82973C1.54284 8.62356 1.64553 8.14558 1.85092 7.18961L1.8857 7.0277C1.99745 6.50753 2.05333 6.24745 1.99487 6.00249C1.98397 5.9568 1.97017 5.91189 1.95358 5.86806C1.86465 5.63308 1.67383 5.4538 1.2922 5.09524L1.04059 4.85884C0.28671 4.15052 -0.0902328 3.79636 0.0183748 3.46287C0.126982 3.12938 0.634552 3.08244 1.64969 2.98855L1.76182 2.97818C2.38209 2.92081 2.69222 2.89213 2.92847 2.71073C3.16472 2.52933 3.28065 2.23089 3.51249 1.634L3.5316 1.5848Z" fill="#222222"/>
                                 </svg>                                        
@@ -102,8 +102,8 @@
                             </defs>
                         </svg>                                    
                         <h3>Microsoft</h3>  
-                        <p>4.1 
-                            <span>
+                        <p class="flex">4.1 
+                            <span class="my-auto ml-1">
                                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5316 1.5848C3.94197 0.528266 4.14716 0 4.5 0C4.85284 0 5.05803 0.528266 5.4684 1.5848L5.48751 1.634C5.71935 2.23089 5.83528 2.52933 6.07153 2.71073C6.30778 2.89213 6.61791 2.92081 7.23818 2.97818L7.35031 2.98855C8.36545 3.08244 8.87302 3.12938 8.98163 3.46287C9.09023 3.79636 8.71329 4.15052 7.95941 4.85884L7.7078 5.09524C7.32617 5.4538 7.13535 5.63308 7.04642 5.86806C7.02983 5.91189 7.01603 5.9568 7.00513 6.00249C6.94667 6.24745 7.00255 6.50753 7.1143 7.0277L7.14909 7.18961C7.35447 8.14558 7.45716 8.62356 7.27786 8.82973C7.21086 8.90677 7.12378 8.96224 7.02705 8.98949C6.76818 9.06244 6.40065 8.75316 5.66559 8.1346C5.18293 7.72843 4.94159 7.52534 4.66452 7.47966C4.55553 7.46168 4.44447 7.46168 4.33548 7.47966C4.0584 7.52534 3.81707 7.72843 3.33441 8.1346C2.59935 8.75316 2.23182 9.06244 1.97295 8.98949C1.87622 8.96224 1.78914 8.90677 1.72214 8.82973C1.54284 8.62356 1.64553 8.14558 1.85092 7.18961L1.8857 7.0277C1.99745 6.50753 2.05333 6.24745 1.99487 6.00249C1.98397 5.9568 1.97017 5.91189 1.95358 5.86806C1.86465 5.63308 1.67383 5.4538 1.2922 5.09524L1.04059 4.85884C0.28671 4.15052 -0.0902328 3.79636 0.0183748 3.46287C0.126982 3.12938 0.634552 3.08244 1.64969 2.98855L1.76182 2.97818C2.38209 2.92081 2.69222 2.89213 2.92847 2.71073C3.16472 2.52933 3.28065 2.23089 3.51249 1.634L3.5316 1.5848Z" fill="#222222"/>
                                 </svg>                                        
@@ -136,8 +136,8 @@
                             </defs>
                         </svg>                                    
                         <h3>Google</h3>  
-                        <p>4.9 
-                            <span>
+                        <p class="flex">4.9 
+                            <span class="my-auto ml-1">
                                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5316 1.5848C3.94197 0.528266 4.14716 0 4.5 0C4.85284 0 5.05803 0.528266 5.4684 1.5848L5.48751 1.634C5.71935 2.23089 5.83528 2.52933 6.07153 2.71073C6.30778 2.89213 6.61791 2.92081 7.23818 2.97818L7.35031 2.98855C8.36545 3.08244 8.87302 3.12938 8.98163 3.46287C9.09023 3.79636 8.71329 4.15052 7.95941 4.85884L7.7078 5.09524C7.32617 5.4538 7.13535 5.63308 7.04642 5.86806C7.02983 5.91189 7.01603 5.9568 7.00513 6.00249C6.94667 6.24745 7.00255 6.50753 7.1143 7.0277L7.14909 7.18961C7.35447 8.14558 7.45716 8.62356 7.27786 8.82973C7.21086 8.90677 7.12378 8.96224 7.02705 8.98949C6.76818 9.06244 6.40065 8.75316 5.66559 8.1346C5.18293 7.72843 4.94159 7.52534 4.66452 7.47966C4.55553 7.46168 4.44447 7.46168 4.33548 7.47966C4.0584 7.52534 3.81707 7.72843 3.33441 8.1346C2.59935 8.75316 2.23182 9.06244 1.97295 8.98949C1.87622 8.96224 1.78914 8.90677 1.72214 8.82973C1.54284 8.62356 1.64553 8.14558 1.85092 7.18961L1.8857 7.0277C1.99745 6.50753 2.05333 6.24745 1.99487 6.00249C1.98397 5.9568 1.97017 5.91189 1.95358 5.86806C1.86465 5.63308 1.67383 5.4538 1.2922 5.09524L1.04059 4.85884C0.28671 4.15052 -0.0902328 3.79636 0.0183748 3.46287C0.126982 3.12938 0.634552 3.08244 1.64969 2.98855L1.76182 2.97818C2.38209 2.92081 2.69222 2.89213 2.92847 2.71073C3.16472 2.52933 3.28065 2.23089 3.51249 1.634L3.5316 1.5848Z" fill="#222222"/>
                                 </svg>                                        
@@ -170,8 +170,8 @@
                             </defs>
                         </svg>
                         <h3>Amazon</h3>  
-                        <p>4.6 
-                            <span>
+                        <p class="flex">4.6 
+                            <span class="my-auto ml-1">
                                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M3.5316 1.5848C3.94197 0.528266 4.14716 0 4.5 0C4.85284 0 5.05803 0.528266 5.4684 1.5848L5.48751 1.634C5.71935 2.23089 5.83528 2.52933 6.07153 2.71073C6.30778 2.89213 6.61791 2.92081 7.23818 2.97818L7.35031 2.98855C8.36545 3.08244 8.87302 3.12938 8.98163 3.46287C9.09023 3.79636 8.71329 4.15052 7.95941 4.85884L7.7078 5.09524C7.32617 5.4538 7.13535 5.63308 7.04642 5.86806C7.02983 5.91189 7.01603 5.9568 7.00513 6.00249C6.94667 6.24745 7.00255 6.50753 7.1143 7.0277L7.14909 7.18961C7.35447 8.14558 7.45716 8.62356 7.27786 8.82973C7.21086 8.90677 7.12378 8.96224 7.02705 8.98949C6.76818 9.06244 6.40065 8.75316 5.66559 8.1346C5.18293 7.72843 4.94159 7.52534 4.66452 7.47966C4.55553 7.46168 4.44447 7.46168 4.33548 7.47966C4.0584 7.52534 3.81707 7.72843 3.33441 8.1346C2.59935 8.75316 2.23182 9.06244 1.97295 8.98949C1.87622 8.96224 1.78914 8.90677 1.72214 8.82973C1.54284 8.62356 1.64553 8.14558 1.85092 7.18961L1.8857 7.0277C1.99745 6.50753 2.05333 6.24745 1.99487 6.00249C1.98397 5.9568 1.97017 5.91189 1.95358 5.86806C1.86465 5.63308 1.67383 5.4538 1.2922 5.09524L1.04059 4.85884C0.28671 4.15052 -0.0902328 3.79636 0.0183748 3.46287C0.126982 3.12938 0.634552 3.08244 1.64969 2.98855L1.76182 2.97818C2.38209 2.92081 2.69222 2.89213 2.92847 2.71073C3.16472 2.52933 3.28065 2.23089 3.51249 1.634L3.5316 1.5848Z" fill="#222222"/>
                                 </svg>                                        
@@ -194,52 +194,54 @@
                 </li>
             </ul>
         </div>        
-        <div class="content-details hidden sm:block blur-dev" id="offer-description">
-            <div class="content-title">
-                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <rect x="0.25" y="0.25" width="49.5" height="49.5" rx="24.75" fill="url(#pattern0)" stroke="#D9D9D9" stroke-width="0.5"/>
-                    <defs>
-                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0_118_2765" transform="scale(0.00444444)"/>
-                    </pattern>
-                    <image id="image0_118_2765" width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEX/uQF/ugDyUCIBpO///v////v//v0BpfL//f/9///8/v///fyhwld+uwB8tgD9//yBye73swD87LcAmub9//P///jw//yUuj/zTiUAleLz5ZXnZ0XxTRqCtwX/+vb1TiPM3pq76PPjQg7uoYPwRBrlfF4Cpuze////9err///4/9f/7+zjYDPlaEnsYk3da1fbYE3qppzU4LaPsEbWSQDnVh7tQBDumYd6rQDWTiPuUCnyVhfL35LcRRT6Thnqoo//Ryfso4LeSCTkNyTsmZH99uLrelfeglrmeGnhcG/ysLCbtV/M5OrA6PCw6Pv++M8Wgr5/wdvz3pDgrRGh+DWdAAADX0lEQVR4nO3d0XfbNBTHcdWVlCsbqo1IJt1CnWbd2gJjMJYxEtZlbAU2xhjw//8vXIfCE0+cIxU439/xcR6Vj3zvdfJim9Ozo66TlHLppMt0HpKzIUQv+eNUK+aTT2/fv//Z7fJ58PkXItmLDdG5h19+WCvm7NFqM9/Om3npXDz+qhO9fGJjTosn7xfP3t7e+GG6r9fzZrtez0pns3zu253Q+vTNQXnhVYw8HS42w2rVlM68eWbb3nXeWgmLg71aMbLcbptZcV8zbLcvRfrofXRiFwcf1Yo5ejob1sPFULxKZyd3kk4aG3ISX+MaHvwRkx41zUpLqHhWy+fZx05HaZa8qNiHR0ttkVkzlCee3PHWuzD2Ya7ZhwgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIvxPCIN3vrowfXuxGjar8k+73iyf5V4kdp1I1WdBn714vN4OzXYonZMXL3MQq5fRSlo8OagVc/ngu+/v3tWjdH549doFCb3PXsLDH9+rFXMqOdoaSTn3USSE7MSmS19lUY0J2hohhPIL9iH00YdRaEVPtWKStLqp0ZUGhrYVnaLaiG63mxWFITgV5lA6IiPvqlh8tSK1Rmle13Zd4bio8VZ270bQvqgnVOBYQD4WTtDyzDm0VqzPSiy93l8xrbbE+AUqVKmOmr7XjtfrmFP5Ba9iRLqUUo3RttvF6PLYFHpTrBUjbRtzpz81Skd3sdtNm/Fu0bbF32vzZ8yZlo4OtvKdP9ZpN55yim2sWKX5zfHb45+Oy+ft8Zt2rFTRps8/3/qgVszpu8PD6XR6WDzTd7+cR/3z5BSZfv3tZq2Y8+nk3v5kokfh7E9vhNBptY6ve7p101RLr8J7E1WWzmR6I7Y7oRNXVXiIEOE/ENbtQ4QIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwn+3sDjweoX79YQBIUKEfy+sOGl2Qvt/vltcj1BXL+67PuHvmSIifpReTswAAAAASUVORK5CYII="/>
-                    </defs>
-                </svg>                                    
-                <h3>Amazon</h3>  
-                <div class="btns">
-                    <svg class="ic-report" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="37" height="37" rx="18.5" fill="#EBF0EB"/>
-                        <circle cx="18.5" cy="18.5" r="9" stroke="#4DD783"/>
-                        <path d="M24.5 24.5L12.5 12.5" stroke="#4DD783"/>
-                    </svg>                                
-                    <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
-                    <button class="bg-[var(--color-primary)] border-[1px] px-10 py-2 rounded-full text-white hover:bg-transparent hover:border-[var(--color-primary)] hover:border-[1px] hover:text-[var(--color-primary)] duration-200">Apply</button>
-                </div>                        
-            </div>
-            <h3>Software Developer</h3>
-            <p>Remote</p>
-            <hr>
-            <div class="content-description">
-                <p>
-                    Location: Remote
-                    Job Schedule: Full Time (40 Hours per week)
-                    Salary: $88,775.00/Annum
-                    Job duties:
-                    Defining technical user stories, developing web applications, and designing integration services and APIs.
-                    Responsible for utilizing “Mulesoft Anypoint” Platform to create flows to orchestrate the call of services to support API and integration needs.
-                    Determines how existing applications, systems, databases, interfaces and / or hardware can work together to meet new and emerging enterprise initiatives around Mulesoft Integrations
-                    Create RESTFUL API’s based on the business requirements
-                    Assist in the development of logical and physical specifications.
-                    Working in building connections from Mule ESB to SFDC, Database and other third-party systems.
-                    Perform data transformation using Built-in Transformers and Dataweave.
-                    RAML (RESTful API Modeling Language) definitions for process and system API layers.
-                    Responsible for MuleSoft development and Testing.
-                    Design and develop project Technical Design Documents
-                    Responsible for MuleSoft development and Testing Coordination (Unit / Performance and Load Testing)
-                    Responsible for Mentorship and Training for Developers.
-                    Minimum Education Requirement: This position requires minimum of Bachelor’s degree in computer science, computer information systems, information technology, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects.
-                </p>
-            </div>
-        </div>        
+        <div class="h-full flex-1 ml-1 pr-1 hidden md:block">
+            <aside class=" content-details max-h-[550px] overflow-y-scroll blur-dev" id="offer-description">
+                <div class="content-title">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.25" y="0.25" width="49.5" height="49.5" rx="24.75" fill="url(#pattern0)" stroke="#D9D9D9" stroke-width="0.5"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_118_2765" transform="scale(0.00444444)"/>
+                        </pattern>
+                        <image id="image0_118_2765" width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEX/uQF/ugDyUCIBpO///v////v//v0BpfL//f/9///8/v///fyhwld+uwB8tgD9//yBye73swD87LcAmub9//P///jw//yUuj/zTiUAleLz5ZXnZ0XxTRqCtwX/+vb1TiPM3pq76PPjQg7uoYPwRBrlfF4Cpuze////9err///4/9f/7+zjYDPlaEnsYk3da1fbYE3qppzU4LaPsEbWSQDnVh7tQBDumYd6rQDWTiPuUCnyVhfL35LcRRT6Thnqoo//Ryfso4LeSCTkNyTsmZH99uLrelfeglrmeGnhcG/ysLCbtV/M5OrA6PCw6Pv++M8Wgr5/wdvz3pDgrRGh+DWdAAADX0lEQVR4nO3d0XfbNBTHcdWVlCsbqo1IJt1CnWbd2gJjMJYxEtZlbAU2xhjw//8vXIfCE0+cIxU439/xcR6Vj3zvdfJim9Ozo66TlHLppMt0HpKzIUQv+eNUK+aTT2/fv//Z7fJ58PkXItmLDdG5h19+WCvm7NFqM9/Om3npXDz+qhO9fGJjTosn7xfP3t7e+GG6r9fzZrtez0pns3zu253Q+vTNQXnhVYw8HS42w2rVlM68eWbb3nXeWgmLg71aMbLcbptZcV8zbLcvRfrofXRiFwcf1Yo5ejob1sPFULxKZyd3kk4aG3ISX+MaHvwRkx41zUpLqHhWy+fZx05HaZa8qNiHR0ttkVkzlCee3PHWuzD2Ya7ZhwgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIvxPCIN3vrowfXuxGjar8k+73iyf5V4kdp1I1WdBn714vN4OzXYonZMXL3MQq5fRSlo8OagVc/ngu+/v3tWjdH549doFCb3PXsLDH9+rFXMqOdoaSTn3USSE7MSmS19lUY0J2hohhPIL9iH00YdRaEVPtWKStLqp0ZUGhrYVnaLaiG63mxWFITgV5lA6IiPvqlh8tSK1Rmle13Zd4bio8VZ270bQvqgnVOBYQD4WTtDyzDm0VqzPSiy93l8xrbbE+AUqVKmOmr7XjtfrmFP5Ba9iRLqUUo3RttvF6PLYFHpTrBUjbRtzpz81Skd3sdtNm/Fu0bbF32vzZ8yZlo4OtvKdP9ZpN55yim2sWKX5zfHb45+Oy+ft8Zt2rFTRps8/3/qgVszpu8PD6XR6WDzTd7+cR/3z5BSZfv3tZq2Y8+nk3v5kokfh7E9vhNBptY6ve7p101RLr8J7E1WWzmR6I7Y7oRNXVXiIEOE/ENbtQ4QIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwn+3sDjweoX79YQBIUKEfy+sOGl2Qvt/vltcj1BXL+67PuHvmSIifpReTswAAAAASUVORK5CYII="/>
+                        </defs>
+                    </svg>                                    
+                    <h3>Amazon</h3>  
+                    <div class="btns flex items-center flex-1 gap-2 justify-end">
+                        <svg class="ic-report min-w-max min-h-max" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="37" height="37" rx="18.5" fill="#EBF0EB"/>
+                            <circle cx="18.5" cy="18.5" r="9" stroke="#4DD783"/>
+                            <path d="M24.5 24.5L12.5 12.5" stroke="#4DD783"/>
+                        </svg>                                
+                        <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
+                        <button class="bg-[var(--color-primary)] border-[1px] px-5 lg:px-10 py-2 rounded-full text-white hover:bg-transparent hover:border-[var(--color-primary)] hover:border-[1px] hover:text-[var(--color-primary)] duration-200">Apply</button>
+                    </div>                        
+                </div>
+                <h3>Software Developer</h3>
+                <p>Remote</p>
+                <hr>
+                <div class="content-description">
+                    <p>
+                        Location: Remote
+                        Job Schedule: Full Time (40 Hours per week)
+                        Salary: $88,775.00/Annum
+                        Job duties:
+                        Defining technical user stories, developing web applications, and designing integration services and APIs.
+                        Responsible for utilizing “Mulesoft Anypoint” Platform to create flows to orchestrate the call of services to support API and integration needs.
+                        Determines how existing applications, systems, databases, interfaces and / or hardware can work together to meet new and emerging enterprise initiatives around Mulesoft Integrations
+                        Create RESTFUL API’s based on the business requirements
+                        Assist in the development of logical and physical specifications.
+                        Working in building connections from Mule ESB to SFDC, Database and other third-party systems.
+                        Perform data transformation using Built-in Transformers and Dataweave.
+                        RAML (RESTful API Modeling Language) definitions for process and system API layers.
+                        Responsible for MuleSoft development and Testing.
+                        Design and develop project Technical Design Documents
+                        Responsible for MuleSoft development and Testing Coordination (Unit / Performance and Load Testing)
+                        Responsible for Mentorship and Training for Developers.
+                        Minimum Education Requirement: This position requires minimum of Bachelor’s degree in computer science, computer information systems, information technology, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects.
+                    </p>
+                </div>
+            </aside>     
+        </div>       
     </div>
 </div>

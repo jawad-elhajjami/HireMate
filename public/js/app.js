@@ -2067,6 +2067,14 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 // { VIEW: employer-home }
 var offerDescription = document.getElementById('offer-description');
 var icLike = document.querySelectorAll('.ic-heart');
+var listOffers = document.querySelectorAll('li');
+var filtersCard = document.getElementById('filters-card');
+var btnFilters = document.getElementById('btn-filters');
+var btnCloseFiltersCard = document.getElementById('btn-close-filters-card');
+var rangeSalary = document.getElementById('range-salary');
+var valueRangeSalary = document.getElementById('value-range-salary');
+var rangeExperience = document.getElementById('range-experience');
+var valueExperienceSalary = document.getElementById('value-range-experience');
 
 // ----------------------------------- LISTNERS --------------------------------------------------------
 
@@ -2078,6 +2086,26 @@ icLike.forEach(function (e) {
   return e.addEventListener("click", function (e) {
     return likeOffer(e);
   });
+});
+listOffers.forEach(function (element) {
+  return element.addEventListener("click", function (e) {
+    return showOfferDetails(e);
+  });
+});
+window.addEventListener("scroll", function () {
+  return fixDetailsSection();
+});
+btnFilters.addEventListener("click", function () {
+  return toggleFiltersCard();
+});
+btnCloseFiltersCard.addEventListener("click", function () {
+  return toggleFiltersCard();
+});
+rangeSalary.addEventListener('input', function () {
+  return valueRangeSalary.innerHTML = "$" + rangeSalary.value + " +";
+});
+rangeExperience.addEventListener('input', function () {
+  return valueExperienceSalary.innerHTML = rangeExperience.value + "+ years";
 });
 
 // ----------------------------------- FUNCTIONS --------------------------------------------------------
@@ -2097,6 +2125,43 @@ var blurDev = function blurDev(e) {
 // { VIEW: employer-home }
 var likeOffer = function likeOffer(e) {
   e.target.getAttribute('src') == "images/ic-empty-heart.png" ? e.target.src = "images/ic-full-heart.png" : e.target.src = "images/ic-empty-heart.png";
+};
+
+// { VIEW: employer-home }
+var showOfferDetails = function showOfferDetails(e) {
+  if (e.target.tagName.toLowerCase() != 'img') {
+    listOffers.forEach(function (element) {
+      element.classList.remove("checked");
+    });
+    if (e.target.tagName.toLowerCase() === 'li') {
+      e.target.classList.add("checked");
+    } else if (e.target.parentElement.tagName.toLowerCase() === "li") {
+      e.target.parentElement.classList.add("checked");
+    } else if (e.target.parentElement.parentElement.tagName.toLowerCase() === "li") {
+      e.target.parentElement.parentElement.classList.add("checked");
+    } else if (e.target.parentElement.parentElement.parentElement.tagName.toLowerCase() === "li") {
+      e.target.parentElement.parentElement.parentElement.classList.add("checked");
+    }
+  }
+};
+
+// { VIEW: employer-home }
+var fixDetailsSection = function fixDetailsSection() {
+  // if (window.scrollY >= 656) {
+  //     console.log(window.scrollY)
+  //     offerDescription.style.position = "absolute";
+  //     offerDescription.style.top = "0";
+  //     offerDescription.style.bottom = "auto";
+  //     offerDescription.style.right = "0";
+  //     offerDescription.style.left = "auto";
+  // } else if (window.scrollY <= 656) {
+  //     offerDescription.style.position = "static";
+  // }
+};
+
+// { VIEW: employer-home }
+var toggleFiltersCard = function toggleFiltersCard() {
+  filtersCard.classList.contains("hidden") ? filtersCard.classList.replace("hidden", "block") : filtersCard.classList.replace("block", "hidden");
 };
 
 /***/ }),
