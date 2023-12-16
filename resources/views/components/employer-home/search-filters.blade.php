@@ -1,6 +1,6 @@
 <div id="filters-card" class="hidden absolute w-[378px] top-24 right-44 bg-white z-50 p-5 shadow-xl ">
     <form action="#" method="get">
-        <div class="card-head flex pb-3">
+        <div class="card-head flex pb-6 mt-0">
             <h1 class="flex-1 text-lg">Filters</h1>
             <span id="btn-close-filters-card" class="rounded-full p-1 hover:bg-gray-100 cursor-pointer">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -194,54 +194,52 @@
                 </li>
             </ul>
         </div>        
-        <div class="h-full flex-1 ml-1 pr-1 hidden md:block">
-            <aside class=" content-details max-h-[550px] overflow-y-scroll blur-dev" id="offer-description">
-                <div class="content-title">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <rect x="0.25" y="0.25" width="49.5" height="49.5" rx="24.75" fill="url(#pattern0)" stroke="#D9D9D9" stroke-width="0.5"/>
-                        <defs>
-                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use xlink:href="#image0_118_2765" transform="scale(0.00444444)"/>
-                        </pattern>
-                        <image id="image0_118_2765" width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEX/uQF/ugDyUCIBpO///v////v//v0BpfL//f/9///8/v///fyhwld+uwB8tgD9//yBye73swD87LcAmub9//P///jw//yUuj/zTiUAleLz5ZXnZ0XxTRqCtwX/+vb1TiPM3pq76PPjQg7uoYPwRBrlfF4Cpuze////9err///4/9f/7+zjYDPlaEnsYk3da1fbYE3qppzU4LaPsEbWSQDnVh7tQBDumYd6rQDWTiPuUCnyVhfL35LcRRT6Thnqoo//Ryfso4LeSCTkNyTsmZH99uLrelfeglrmeGnhcG/ysLCbtV/M5OrA6PCw6Pv++M8Wgr5/wdvz3pDgrRGh+DWdAAADX0lEQVR4nO3d0XfbNBTHcdWVlCsbqo1IJt1CnWbd2gJjMJYxEtZlbAU2xhjw//8vXIfCE0+cIxU439/xcR6Vj3zvdfJim9Ozo66TlHLppMt0HpKzIUQv+eNUK+aTT2/fv//Z7fJ58PkXItmLDdG5h19+WCvm7NFqM9/Om3npXDz+qhO9fGJjTosn7xfP3t7e+GG6r9fzZrtez0pns3zu253Q+vTNQXnhVYw8HS42w2rVlM68eWbb3nXeWgmLg71aMbLcbptZcV8zbLcvRfrofXRiFwcf1Yo5ejob1sPFULxKZyd3kk4aG3ISX+MaHvwRkx41zUpLqHhWy+fZx05HaZa8qNiHR0ttkVkzlCee3PHWuzD2Ya7ZhwgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIvxPCIN3vrowfXuxGjar8k+73iyf5V4kdp1I1WdBn714vN4OzXYonZMXL3MQq5fRSlo8OagVc/ngu+/v3tWjdH549doFCb3PXsLDH9+rFXMqOdoaSTn3USSE7MSmS19lUY0J2hohhPIL9iH00YdRaEVPtWKStLqp0ZUGhrYVnaLaiG63mxWFITgV5lA6IiPvqlh8tSK1Rmle13Zd4bio8VZ270bQvqgnVOBYQD4WTtDyzDm0VqzPSiy93l8xrbbE+AUqVKmOmr7XjtfrmFP5Ba9iRLqUUo3RttvF6PLYFHpTrBUjbRtzpz81Skd3sdtNm/Fu0bbF32vzZ8yZlo4OtvKdP9ZpN55yim2sWKX5zfHb45+Oy+ft8Zt2rFTRps8/3/qgVszpu8PD6XR6WDzTd7+cR/3z5BSZfv3tZq2Y8+nk3v5kokfh7E9vhNBptY6ve7p101RLr8J7E1WWzmR6I7Y7oRNXVXiIEOE/ENbtQ4QIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwn+3sDjweoX79YQBIUKEfy+sOGl2Qvt/vltcj1BXL+67PuHvmSIifpReTswAAAAASUVORK5CYII="/>
-                        </defs>
-                    </svg>                                    
-                    <h3>Amazon</h3>  
-                    <div class="btns flex items-center flex-1 gap-2 justify-end">
-                        <svg class="ic-report min-w-max min-h-max" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="37" height="37" rx="18.5" fill="#EBF0EB"/>
-                            <circle cx="18.5" cy="18.5" r="9" stroke="#4DD783"/>
-                            <path d="M24.5 24.5L12.5 12.5" stroke="#4DD783"/>
-                        </svg>                                
-                        <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
-                        <button class="bg-[var(--color-primary)] border-[1px] px-5 lg:px-10 py-2 rounded-full text-white hover:bg-transparent hover:border-[var(--color-primary)] hover:border-[1px] hover:text-[var(--color-primary)] duration-200">Apply</button>
-                    </div>                        
-                </div>
-                <h3>Software Developer</h3>
-                <p>Remote</p>
-                <hr>
-                <div class="content-description">
-                    <p>
-                        Location: Remote
-                        Job Schedule: Full Time (40 Hours per week)
-                        Salary: $88,775.00/Annum
-                        Job duties:
-                        Defining technical user stories, developing web applications, and designing integration services and APIs.
-                        Responsible for utilizing “Mulesoft Anypoint” Platform to create flows to orchestrate the call of services to support API and integration needs.
-                        Determines how existing applications, systems, databases, interfaces and / or hardware can work together to meet new and emerging enterprise initiatives around Mulesoft Integrations
-                        Create RESTFUL API’s based on the business requirements
-                        Assist in the development of logical and physical specifications.
-                        Working in building connections from Mule ESB to SFDC, Database and other third-party systems.
-                        Perform data transformation using Built-in Transformers and Dataweave.
-                        RAML (RESTful API Modeling Language) definitions for process and system API layers.
-                        Responsible for MuleSoft development and Testing.
-                        Design and develop project Technical Design Documents
-                        Responsible for MuleSoft development and Testing Coordination (Unit / Performance and Load Testing)
-                        Responsible for Mentorship and Training for Developers.
-                        Minimum Education Requirement: This position requires minimum of Bachelor’s degree in computer science, computer information systems, information technology, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects.
-                    </p>
-                </div>
-            </aside>     
-        </div>       
+        <div class=" content-details max-h-[550px] overflow-y-scroll blur-dev hidden md:block" id="offer-description">
+            <div class="content-title">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.25" y="0.25" width="49.5" height="49.5" rx="24.75" fill="url(#pattern0)" stroke="#D9D9D9" stroke-width="0.5"/>
+                    <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_118_2765" transform="scale(0.00444444)"/>
+                    </pattern>
+                    <image id="image0_118_2765" width="225" height="225" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/FBMVEX/uQF/ugDyUCIBpO///v////v//v0BpfL//f/9///8/v///fyhwld+uwB8tgD9//yBye73swD87LcAmub9//P///jw//yUuj/zTiUAleLz5ZXnZ0XxTRqCtwX/+vb1TiPM3pq76PPjQg7uoYPwRBrlfF4Cpuze////9err///4/9f/7+zjYDPlaEnsYk3da1fbYE3qppzU4LaPsEbWSQDnVh7tQBDumYd6rQDWTiPuUCnyVhfL35LcRRT6Thnqoo//Ryfso4LeSCTkNyTsmZH99uLrelfeglrmeGnhcG/ysLCbtV/M5OrA6PCw6Pv++M8Wgr5/wdvz3pDgrRGh+DWdAAADX0lEQVR4nO3d0XfbNBTHcdWVlCsbqo1IJt1CnWbd2gJjMJYxEtZlbAU2xhjw//8vXIfCE0+cIxU439/xcR6Vj3zvdfJim9Ozo66TlHLppMt0HpKzIUQv+eNUK+aTT2/fv//Z7fJ58PkXItmLDdG5h19+WCvm7NFqM9/Om3npXDz+qhO9fGJjTosn7xfP3t7e+GG6r9fzZrtez0pns3zu253Q+vTNQXnhVYw8HS42w2rVlM68eWbb3nXeWgmLg71aMbLcbptZcV8zbLcvRfrofXRiFwcf1Yo5ejob1sPFULxKZyd3kk4aG3ISX+MaHvwRkx41zUpLqHhWy+fZx05HaZa8qNiHR0ttkVkzlCee3PHWuzD2Ya7ZhwgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIvxPCIN3vrowfXuxGjar8k+73iyf5V4kdp1I1WdBn714vN4OzXYonZMXL3MQq5fRSlo8OagVc/ngu+/v3tWjdH549doFCb3PXsLDH9+rFXMqOdoaSTn3USSE7MSmS19lUY0J2hohhPIL9iH00YdRaEVPtWKStLqp0ZUGhrYVnaLaiG63mxWFITgV5lA6IiPvqlh8tSK1Rmle13Zd4bio8VZ270bQvqgnVOBYQD4WTtDyzDm0VqzPSiy93l8xrbbE+AUqVKmOmr7XjtfrmFP5Ba9iRLqUUo3RttvF6PLYFHpTrBUjbRtzpz81Skd3sdtNm/Fu0bbF32vzZ8yZlo4OtvKdP9ZpN55yim2sWKX5zfHb45+Oy+ft8Zt2rFTRps8/3/qgVszpu8PD6XR6WDzTd7+cR/3z5BSZfv3tZq2Y8+nk3v5kokfh7E9vhNBptY6ve7p101RLr8J7E1WWzmR6I7Y7oRNXVXiIEOE/ENbtQ4QIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhQoQIESJEiBAhwn+3sDjweoX79YQBIUKEfy+sOGl2Qvt/vltcj1BXL+67PuHvmSIifpReTswAAAAASUVORK5CYII="/>
+                    </defs>
+                </svg>                                    
+                <h3>Amazon</h3>  
+                <div class="btns flex items-center flex-1 gap-2 justify-end">
+                    <svg class="ic-report min-w-max min-h-max" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="37" height="37" rx="18.5" fill="#EBF0EB"/>
+                        <circle cx="18.5" cy="18.5" r="9" stroke="#4DD783"/>
+                        <path d="M24.5 24.5L12.5 12.5" stroke="#4DD783"/>
+                    </svg>                                
+                    <img class="ic-heart" src="images/ic-empty-heart.png"  alt="ic-heart" width="37" height="37">
+                    <button class="bg-[var(--color-primary)] border-[1px] px-5 lg:px-10 py-2 rounded-full text-white hover:bg-transparent hover:border-[var(--color-primary)] hover:border-[1px] hover:text-[var(--color-primary)] duration-200">Apply</button>
+                </div>                        
+            </div>
+            <h3>Software Developer</h3>
+            <p>Remote</p>
+            <hr>
+            <div class="content-description">
+                <p>
+                    Location: Remote
+                    Job Schedule: Full Time (40 Hours per week)
+                    Salary: $88,775.00/Annum
+                    Job duties:
+                    Defining technical user stories, developing web applications, and designing integration services and APIs.
+                    Responsible for utilizing “Mulesoft Anypoint” Platform to create flows to orchestrate the call of services to support API and integration needs.
+                    Determines how existing applications, systems, databases, interfaces and / or hardware can work together to meet new and emerging enterprise initiatives around Mulesoft Integrations
+                    Create RESTFUL API’s based on the business requirements
+                    Assist in the development of logical and physical specifications.
+                    Working in building connections from Mule ESB to SFDC, Database and other third-party systems.
+                    Perform data transformation using Built-in Transformers and Dataweave.
+                    RAML (RESTful API Modeling Language) definitions for process and system API layers.
+                    Responsible for MuleSoft development and Testing.
+                    Design and develop project Technical Design Documents
+                    Responsible for MuleSoft development and Testing Coordination (Unit / Performance and Load Testing)
+                    Responsible for Mentorship and Training for Developers.
+                    Minimum Education Requirement: This position requires minimum of Bachelor’s degree in computer science, computer information systems, information technology, or a combination of education and experience equating to the U.S. equivalent of a Bachelor’s degree in one of the aforementioned subjects.
+                </p>
+            </div>
+        </div>     
     </div>
 </div>
