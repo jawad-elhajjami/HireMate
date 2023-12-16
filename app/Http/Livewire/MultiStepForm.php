@@ -34,7 +34,7 @@ class MultiStepForm extends Component
         }
     }
 
-    //increase multi step form with checking the fields if empty
+    //increase multi step form and check the fields if empty
     public function increaseStep(){
         $this->resetErrorBag();
         $this->validateData();
@@ -54,7 +54,10 @@ class MultiStepForm extends Component
         }
         if($this->currentStep == 2){
             $this->validate([
-                
+                'educationDropDown'=>'required',
+                'statusDropDown'=>'required',
+                'startDate'=>'required',
+                'endDate'=>'required'
             ]);
         }
         if($this->currentStep == 3){
