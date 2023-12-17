@@ -19,7 +19,7 @@
             <div class="flex mt-1">
                 <p class="flex-1 text-sm">$0+</p>
                 <p class="text-sm">$45,000</p>
-            </div>
+            </div>php
         </div>
         <hr>
         <div class="schedule-section py-5">
