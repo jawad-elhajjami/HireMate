@@ -13,8 +13,7 @@
     <div class="container mx-auto mt-10 mb-10 flex justify-center flex-col items-center p-4">
         @livewire('employer-get-started')
     </div>
-        
-    <x-footer/>
+    
     @livewireScripts
     <script src="{{ mix('js/app.js') }}"></script>
 </body>

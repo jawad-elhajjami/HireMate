@@ -13,7 +13,6 @@
 
     <x-header showLinks="true"/> 
     @livewire('multi-step-form')
-    <x-footer />
 
     <!--Livewire Script-->
     @livewireScripts
