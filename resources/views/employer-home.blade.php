@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="{{ asset('/css/employer-home.css') }}">
 
     <title>{{ config('app.name') }} - Home page</title>
+    @livewireStyles
 </head>
 <body>
-    <x-employer-home.header showLinks="true"/>
-    <x-employer-home.search-section />
-    <x-employer-home.main-nav />
-    <x-employer-home.offers-section />
-    <x-employer-home.search-filters />
+    <x-header showLinks="true"/>
+    <livewire:employer-home.search-section />
+    <livewire:employer-home.main-nav />
+    <livewire:employer-home.offers-section />
+    <livewire:employer-home.search-filters />
     <x-footer/>
 
     <script src="{{ mix('js/app.js') }}"></script>
+    @livewireScripts
 </html>

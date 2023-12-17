@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">     
 
     <title>{{ config('app.name') }} - Dashboard</title>
+    @livewireStyles
 </head>
 <body>
-    <x-employer-dashboard.header showLinks="true"/>
-    <x-employer-dashboard.main-section1/>
+    <livewire:employer-dashboard.header />
+    <livewire:employer-dashboard.activities-section/>
+    <livewire:employer-dashboard.horizontal-card-slider/>
     <x-footer/>
 
     <script src="{{ mix('js/app.js') }}"></script>
+    @livewireScripts
 </html>
