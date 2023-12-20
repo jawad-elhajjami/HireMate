@@ -13,6 +13,10 @@ class MultiStepForm extends Component
     public $email;
     public $fullName;
     public $address;
+    public $educationLevel;
+    public $status;
+    public $startDate, $endDate;
+    public $companyName, $position;
 
     public $totalSteps = 5;
     public $currentStep = 1;
@@ -54,15 +58,23 @@ class MultiStepForm extends Component
         }
         if($this->currentStep == 2){
             $this->validate([
-                'educationDropDown'=>'required',
-                'statusDropDown'=>'required',
+                'educationLevel'=>'required',
+                'status'=>'required',
                 'startDate'=>'required',
                 'endDate'=>'required'
             ]);
         }
         if($this->currentStep == 3){
             $this->validate([
-                
+                'companyName'=>'required',
+                'position'=>'required',
+                'startDate'=>'required',
+                'endDate'=>'required'
+            ]);
+        }
+        if($this->currentStep == 4){
+            $this->validate([
+
             ]);
         }
     }

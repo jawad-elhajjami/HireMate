@@ -593,3 +593,6 @@ input[type="range"] {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+.fill_upload{
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.10);
+}
