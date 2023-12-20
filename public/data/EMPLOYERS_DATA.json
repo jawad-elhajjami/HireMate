@@ -6,7 +6,7 @@
       "country": "United States",
       "industry": "Automotive",
       "employeeCount": 70000,
-      "logo": "https://tesla.com/logo.jpg",
+      "logo": "/images/employers/tesla-logo.png",
       "coverPicture": "https://tesla.com/cover.jpg",
       "bio": "Tesla, Inc. is an American electric vehicle and clean energy company."
     },
@@ -17,7 +17,7 @@
       "country": "United States",
       "industry": "Technology",
       "employeeCount": 135000,
-      "logo": "https://google.com/logo.jpg",
+      "logo": "/images/employers/google-logo.png",
       "coverPicture": "https://google.com/cover.jpg",
       "bio": "Google LLC is a multinational technology company that specializes in Internet-related services and products."
     },
@@ -28,7 +28,7 @@
       "country": "United States",
       "industry": "E-commerce",
       "employeeCount": 1300000 ,
-      "logo": "https://amazon.com/logo.jpg",
+      "logo": "/images/employers/amazon-logo.jpg",
       "coverPicture": "https://amazon.com/cover.jpg",
       "bio": "Amazon.com Inc. is an American multinational technology and e-commerce company."
     },
@@ -39,7 +39,7 @@
       "country": "United States",
       "industry": "Technology",
       "employeeCount": 180000,
-      "logo": "https://microsoft.com/logo.jpg",
+      "logo": "/images/employers/microsoft-logo.jpg",
       "coverPicture": "https://microsoft.com/cover.jpg",
       "bio": "Microsoft Corporation is an American multinational technology company."
     },
@@ -50,7 +50,7 @@
       "country": "United States",
       "industry": "Technology",
       "employeeCount": 147000,
-      "logo": "https://apple.com/logo.jpg",
+      "logo": "/images/employers/apple-logo.jpg",
       "coverPicture": "https://apple.com/cover.jpg",
       "bio": "Apple Inc. is an American multinational technology company that designs, manufactures, and markets consumer electronics, computer software, and online services."
     },
@@ -61,7 +61,7 @@
       "country": "United States",
       "industry": "Social Media",
       "employeeCount": 70000,
-      "logo": "https://facebook.com/logo.jpg",
+      "logo": "/images/employers/facebook-logo.png",
       "coverPicture": "https://facebook.com/cover.jpg",
       "bio": "Facebook, Inc. is an American social media and technology company."
     },
@@ -72,7 +72,7 @@
       "country": "United States",
       "industry": "Technology",
       "employeeCount": 300000,
-      "logo": "https://ibm.com/logo.jpg",
+      "logo": "/images/employers/ibm-logo.png",
       "coverPicture": "https://ibm.com/cover.jpg",
       "bio": "IBM Corporation is an American multinational technology company."
     },
@@ -83,7 +83,7 @@
       "country": "United States",
       "industry": "Semiconductors",
       "employeeCount": 110000,
-      "logo": "https://intel.com/logo.jpg",
+      "logo": "/images/employers/intel-logo.png",
       "coverPicture": "https://intel.com/cover.jpg",
       "bio": "Intel Corporation is an American multinational semiconductor company."
     },
@@ -94,7 +94,7 @@
       "country": "United States",
       "industry": "Networking",
       "employeeCount": 75000,
-      "logo": "https://cisco.com/logo.jpg",
+      "logo": "/images/employers/cisco-logo.png",
       "coverPicture": "https://cisco.com/cover.jpg",
       "bio": "Cisco Systems, Inc. is an American multinational technology conglomerate."
     },
@@ -105,7 +105,7 @@
       "country": "United States",
       "industry": "Software",
       "employeeCount": 135000,
-      "logo": "https://oracle.com/logo.jpg",
+      "logo": "/images/employers/oracle-logo.png",
       "coverPicture": "https://oracle.com/cover.jpg",
       "bio": "Oracle Corporation is an American multinational computer technology corporation."
     }

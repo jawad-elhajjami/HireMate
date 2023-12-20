@@ -7,7 +7,7 @@
       "backgroundColor": "#15e14b",
       "textColor": "#055270",
       "fontFamily": "Helvetica",
-      "profilePicture": "https://example.com/profile_picture1",
+      "profilePicture": "/images/candidates/p1.jpg",
       "coverPicture": "https://example.com/cover_picture1",
       "coverLetter": "Passionate and results-driven software engineer with a track record of success in building cutting-edge applications. Eager to contribute expertise in JavaScript, React, and Node.js to a dynamic team.",
       "jobPreferences": "Seeking a challenging role in a forward-thinking company where I can leverage my skills in front-end and back-end development to create impactful software solutions."
@@ -20,7 +20,7 @@
       "backgroundColor": "#ffcc00",
       "textColor": "#333333",
       "fontFamily": "Arial",
-      "profilePicture": "https://example.com/profile_picture2",
+      "profilePicture": "/images/candidates/p2.jpg",
       "coverPicture": "https://example.com/cover_picture2",
       "coverLetter": "Experienced Python developer with a focus on building scalable and efficient backend solutions. Passionate about solving complex problems and contributing to the advancement of technology.",
       "jobPreferences": "Seeking challenging opportunities in Python development where I can apply my expertise in building robust and scalable backend systems."
@@ -33,7 +33,7 @@
         "backgroundColor": "#007acc",
         "textColor": "#ffffff",
         "fontFamily": "Verdana",
-        "profilePicture": "https://example.com/profile_picture3",
+        "profilePicture": "/images/candidates/p3.jpg",
         "coverPicture": "https://example.com/cover_picture3",
         "coverLetter": "Dedicated and detail-oriented software engineer with expertise in Java, Spring Boot, and database systems. Proven track record of delivering high-quality software solutions for complex business challenges.",
         "jobPreferences": "Seeking opportunities to contribute to the development of robust and scalable backend systems using Java and related technologies."
@@ -46,7 +46,7 @@
         "backgroundColor": "#f79420",
         "textColor": "#333333",
         "fontFamily": "Times New Roman",
-        "profilePicture": "https://example.com/profile_picture4",
+        "profilePicture": "/images/candidates/p4.jpg",
         "coverPicture": "https://example.com/cover_picture4",
         "coverLetter": "Experienced software developer with a strong background in C#, .NET Core, and web development. Passionate about creating seamless and intuitive user experiences.",
         "jobPreferences": "Seeking challenging roles in web development where I can utilize my skills in C# and .NET Core to contribute to the creation of modern and user-friendly applications."
@@ -59,7 +59,7 @@
         "backgroundColor": "#ff69b4",
         "textColor": "#333333",
         "fontFamily": "Courier New",
-        "profilePicture": "https://example.com/profile_picture5",
+        "profilePicture": "/images/candidates/p5.jpg",
         "coverPicture": "https://example.com/cover_picture5",
         "coverLetter": "Passionate and creative full-stack developer with a strong background in Ruby on Rails. Committed to delivering high-quality code and creating exceptional user experiences.",
         "jobPreferences": "Looking for opportunities to contribute to innovative projects as a full-stack developer using Ruby on Rails and PostgreSQL."
@@ -72,7 +72,7 @@
         "backgroundColor": "#1db954",
         "textColor": "#ffffff",
         "fontFamily": "Roboto",
-        "profilePicture": "https://example.com/profile_picture6",
+        "profilePicture": "/images/candidates/p6.jpg",
         "coverPicture": "https://example.com/cover_picture6",
         "coverLetter": "Experienced mobile app developer with a focus on Android development using Kotlin. Passionate about creating seamless and enjoyable experiences for mobile users.",
         "jobPreferences": "Seeking opportunities to contribute to the development of cutting-edge mobile applications as an Android developer."
@@ -85,7 +85,7 @@
         "backgroundColor": "#e50914",
         "textColor": "#ffffff",
         "fontFamily": "Open Sans",
-        "profilePicture": "https://example.com/profile_picture7",
+        "profilePicture": "/images/candidates/p7.jpg",
         "coverPicture": "https://example.com/cover_picture7",
         "coverLetter": "Motivated frontend developer with expertise in Vue.js and Node.js. Committed to creating visually appealing and user-friendly web applications.",
         "jobPreferences": "Seeking frontend development roles where I can utilize my skills in Vue.js and Node.js to create engaging and innovative user interfaces."
@@ -98,7 +98,7 @@
         "backgroundColor": "#a6a6a6",
         "textColor": "#000000",
         "fontFamily": "Helvetica Neue",
-        "profilePicture": "https://example.com/profile_picture8",
+        "profilePicture": "/images/candidates/p8.jpg",
         "coverPicture": "https://example.com/cover_picture8",
         "coverLetter": "Experienced iOS developer with a passion for creating elegant and efficient mobile applications. Excited to contribute to projects that push the boundaries of mobile technology.",
         "jobPreferences": "Seeking challenging roles in iOS development where I can apply my expertise in Swift and contribute to the success of innovative mobile applications."
@@ -111,7 +111,7 @@
         "backgroundColor": "#b52e31",
         "textColor": "#ffffff",
         "fontFamily": "Arial",
-        "profilePicture": "https://example.com/profile_picture9",
+        "profilePicture": "/images/candidates/p9.jpg",
         "coverPicture": "https://example.com/cover_picture9",
         "coverLetter": "Enthusiastic full-stack developer with expertise in Angular and Java. Dedicated to delivering high-quality software solutions for complex cloud-based applications.",
         "jobPreferences": "Seeking opportunities to contribute to the development of scalable and efficient cloud-based systems as a full-stack developer."
@@ -124,7 +124,7 @@
         "backgroundColor": "#1877f2",
         "textColor": "#ffffff",
         "fontFamily": "Roboto",
-        "profilePicture": "https://example.com/profile_picture10",
+        "profilePicture": "/images/candidates/p10.jpg",
         "coverPicture": "https://example.com/cover_picture10",
         "coverLetter": "Experienced backend developer with a focus on PHP and Laravel. Passionate about creating efficient and scalable backend solutions for large-scale social media platforms.",
         "jobPreferences": "Seeking challenging roles in backend development where I can apply my expertise in PHP and contribute to the success of impactful web applications."
