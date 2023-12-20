@@ -9,6 +9,9 @@ class JobRequest extends Model
 {
     use HasFactory;
 
+    protected $table = 'job_requests';
+    protected $primarykey = "request_id";
+
     protected $fillable = [
         'applicant_id',
         'jobTitle',

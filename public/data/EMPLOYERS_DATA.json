@@ -1,0 +1,113 @@
+[
+    {
+      "companyName": "Tesla Inc.",
+      "city": "Palo Alto",
+      "zip": "94304",
+      "country": "United States",
+      "industry": "Automotive",
+      "employeeCount": 70000,
+      "logo": "https://tesla.com/logo.jpg",
+      "coverPicture": "https://tesla.com/cover.jpg",
+      "bio": "Tesla, Inc. is an American electric vehicle and clean energy company."
+    },
+    {
+      "companyName": "Google LLC",
+      "city": "Mountain View",
+      "zip": "94043",
+      "country": "United States",
+      "industry": "Technology",
+      "employeeCount": 135000,
+      "logo": "https://google.com/logo.jpg",
+      "coverPicture": "https://google.com/cover.jpg",
+      "bio": "Google LLC is a multinational technology company that specializes in Internet-related services and products."
+    },
+    {
+      "companyName": "Amazon.com Inc.",
+      "city": "Seattle",
+      "zip": "98109",
+      "country": "United States",
+      "industry": "E-commerce",
+      "employeeCount": 1300000 ,
+      "logo": "https://amazon.com/logo.jpg",
+      "coverPicture": "https://amazon.com/cover.jpg",
+      "bio": "Amazon.com Inc. is an American multinational technology and e-commerce company."
+    },
+    {
+      "companyName": "Microsoft Corporation",
+      "city": "Redmond",
+      "zip": "98052",
+      "country": "United States",
+      "industry": "Technology",
+      "employeeCount": 180000,
+      "logo": "https://microsoft.com/logo.jpg",
+      "coverPicture": "https://microsoft.com/cover.jpg",
+      "bio": "Microsoft Corporation is an American multinational technology company."
+    },
+    {
+      "companyName": "Apple Inc.",
+      "city": "Cupertino",
+      "zip": "95014",
+      "country": "United States",
+      "industry": "Technology",
+      "employeeCount": 147000,
+      "logo": "https://apple.com/logo.jpg",
+      "coverPicture": "https://apple.com/cover.jpg",
+      "bio": "Apple Inc. is an American multinational technology company that designs, manufactures, and markets consumer electronics, computer software, and online services."
+    },
+    {
+      "companyName": "Facebook, Inc.",
+      "city": "Menlo Park",
+      "zip": "94025",
+      "country": "United States",
+      "industry": "Social Media",
+      "employeeCount": 70000,
+      "logo": "https://facebook.com/logo.jpg",
+      "coverPicture": "https://facebook.com/cover.jpg",
+      "bio": "Facebook, Inc. is an American social media and technology company."
+    },
+    {
+      "companyName": "IBM Corporation",
+      "city": "Armonk",
+      "zip": "10504",
+      "country": "United States",
+      "industry": "Technology",
+      "employeeCount": 300000,
+      "logo": "https://ibm.com/logo.jpg",
+      "coverPicture": "https://ibm.com/cover.jpg",
+      "bio": "IBM Corporation is an American multinational technology company."
+    },
+    {
+      "companyName": "Intel Corporation",
+      "city": "Santa Clara",
+      "zip": "95054",
+      "country": "United States",
+      "industry": "Semiconductors",
+      "employeeCount": 110000,
+      "logo": "https://intel.com/logo.jpg",
+      "coverPicture": "https://intel.com/cover.jpg",
+      "bio": "Intel Corporation is an American multinational semiconductor company."
+    },
+    {
+      "companyName": "Cisco Systems, Inc.",
+      "city": "San Jose",
+      "zip": "95134",
+      "country": "United States",
+      "industry": "Networking",
+      "employeeCount": 75000,
+      "logo": "https://cisco.com/logo.jpg",
+      "coverPicture": "https://cisco.com/cover.jpg",
+      "bio": "Cisco Systems, Inc. is an American multinational technology conglomerate."
+    },
+    {
+      "companyName": "Oracle Corporation",
+      "city": "Redwood City",
+      "zip": "94065",
+      "country": "United States",
+      "industry": "Software",
+      "employeeCount": 135000,
+      "logo": "https://oracle.com/logo.jpg",
+      "coverPicture": "https://oracle.com/cover.jpg",
+      "bio": "Oracle Corporation is an American multinational computer technology corporation."
+    }
+]
+  

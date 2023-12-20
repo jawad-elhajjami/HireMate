@@ -1,0 +1,85 @@
+[
+    {
+      "title": "Software Engineer",
+      "description": "We are looking for an experienced Software Engineer to join our innovative team. In this role, you will be responsible for designing, developing, and maintaining high-quality software solutions. The ideal candidate should have a strong background in full-stack development, with expertise in languages such as Java, JavaScript, and Python. You will collaborate with cross-functional teams to deliver scalable and reliable software products. Join us in shaping the future of technology!",
+      "salary": 160000.0,
+      "location": "San Francisco, CA",
+      "contractType": "Full-Time",
+      "remoteOrOnSite": "On-site"
+    },
+    {
+      "title": "Data Scientist",
+      "description": "We are seeking a talented Data Scientist to analyze and interpret complex data sets. The successful candidate will develop statistical models, machine learning algorithms, and predictive analytics to uncover valuable insights. You will work closely with stakeholders to understand business needs and translate them into data-driven solutions. If you have a passion for data and a strong analytical mindset, join us in transforming data into actionable intelligence!",
+      "salary": 120000.0,
+      "location": "New York, NY",
+      "contractType": "Full-Time",
+      "remoteOrOnSite": "Remote"
+    },
+    {
+      "title": "UX/UI Designer",
+      "description": "Join our creative team as a UX/UI Designer and contribute to the user experience and visual design of our digital products. You will be responsible for creating wireframes, prototypes, and user interfaces that enhance user satisfaction. The ideal candidate should have a keen eye for detail, a strong portfolio showcasing design expertise, and a deep understanding of user-centered design principles. If you're passionate about crafting exceptional user experiences, we want you on our team!",
+      "salary": 100000.0,
+      "location": "Los Angeles, CA",
+      "contractType": "Part-Time",
+      "remoteOrOnSite": "On-site"
+    },
+    {
+      "title": "Project Manager (IT)",
+      "description": "Exciting opportunity for an experienced IT Project Manager to lead and oversee key projects. The role involves managing project timelines, budgets, and resources to ensure successful project delivery. The ideal candidate should have proven experience in project management, excellent communication skills, and the ability to collaborate with cross-functional teams. Join us and play a crucial role in driving the success of our IT initiatives!",
+      "salary": 180000.0,
+      "location": "Seattle, WA",
+      "contractType": "Contract",
+      "remoteOrOnSite": "Remote"
+    },
+    {
+      "title": "Content Marketing Specialist",
+      "description": "We are looking for a dynamic Content Marketing Specialist to drive our content strategy and enhance our brand presence. In this role, you will create compelling content, including blog posts, whitepapers, and social media copy. The ideal candidate should have a strong writing background, experience in SEO optimization, and a creative approach to content creation. If you're passionate about storytelling and marketing, join us in shaping our brand narrative!",
+      "salary": null,
+      "location": "Remote",
+      "contractType": "Freelance",
+      "remoteOrOnSite": "Remote"
+    },
+    
+    {
+        "title": "Network Security Engineer",
+        "description": "We are searching for a skilled Network Security Engineer to join our cybersecurity team. In this role, you will be responsible for designing and implementing security measures to protect our organization's computer networks and systems. The ideal candidate should have in-depth knowledge of network security protocols, firewalls, and intrusion detection/prevention systems. Join us if you're passionate about securing digital assets and staying ahead of evolving cybersecurity threats!",
+        "salary": 150000.0,
+        "location": "Austin, TX",
+        "contractType": "Full-Time",
+        "remoteOrOnSite": "On-site"
+    },
+    {
+        "title": "iOS Developer",
+        "description": "We're looking for a skilled iOS Developer to design and build innovative mobile applications. The ideal candidate will have experience in Swift, Objective-C, and mobile app development best practices. You'll collaborate with cross-functional teams to create seamless and engaging user experiences. If you're passionate about mobile technology and want to contribute to cutting-edge app development, join us in creating the next generation of iOS applications!",
+        "salary": 130000.0,
+        "location": "San Jose, CA",
+        "contractType": "Full-Time",
+        "remoteOrOnSite": "Remote"
+    },
+    {
+        "title": "Product Manager",
+        "description": "Exciting opportunity for a Product Manager to lead the development and launch of innovative products. In this role, you will collaborate with engineering, design, and marketing teams to define product strategy, features, and roadmaps. The ideal candidate should have a strong understanding of market trends, customer needs, and the ability to drive product success. Join us in shaping the future of our product portfolio!",
+        "salary": 140000.0,
+        "location": "Chicago, IL",
+        "contractType": "Full-Time",
+        "remoteOrOnSite": "On-site"
+    },
+    {
+        "title": "DevOps Engineer",
+        "description": "We are seeking a talented DevOps Engineer to join our operations team. The role involves automating and streamlining our deployment processes, maintaining system infrastructure, and ensuring system reliability. The ideal candidate should have experience with cloud platforms, continuous integration, and a passion for optimizing system performance. If you're dedicated to building scalable and efficient systems, join us in shaping our infrastructure!",
+        "salary": 140000.0,
+        "location": "Denver, CO",
+        "contractType": "Contract",
+        "remoteOrOnSite": "Remote"
+    },
+    {
+        "title": "UI/UX Researcher",
+        "description": "Join our team as a UI/UX Researcher and contribute to the user-centered design process. In this role, you will conduct user research, usability testing, and gather valuable insights to inform design decisions. The ideal candidate should have a background in human-computer interaction, strong analytical skills, and a passion for creating user-friendly digital experiences. If you're excited about understanding user behavior, join us in creating intuitive and impactful designs!",
+        "salary": 110000.0,
+        "location": "Portland, OR",
+        "contractType": "Full-Time",
+        "remoteOrOnSite": "On-site"
+    }
+      
+]
+  

@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class JobOffer extends Model
 {
     use HasFactory;
+
+    protected $table = 'job_offers';
+    protected $primerykey = 'idJobOffer';
     protected $fillable = [
         'employer_id',
         'title',

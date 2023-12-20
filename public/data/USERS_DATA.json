@@ -1,0 +1,164 @@
+[
+    {
+        "fullName": "Jeremias Fearn",
+        "email": "jfearn1@weather.com",
+        "phone": "7567157282",
+        "address": "6 Charing Cross Court",
+        "password": "$2a$04$cs0.XrPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Alice Henderson",
+        "email": "alice.henderson@example.com",
+        "phone": "9876543210",
+        "address": "123 Main Street",
+        "password": "$2a$04$xyz.AbcPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Brian Johnson",
+        "email": "brian.johnson@example.com",
+        "phone": "7890123456",
+        "address": "456 Oak Avenue",
+        "password": "$2a$04$pqr.XyzPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Cynthia Williams",
+        "email": "cynthia.williams@example.com",
+        "phone": "3456789012",
+        "address": "789 Pine Street",
+        "password": "$2a$04$stu.PqrPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "David Smith",
+        "email": "david.smith@example.com",
+        "phone": "2345678901",
+        "address": "012 Elm Road",
+        "password": "$2a$04$vwx.StuPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Ella Martinez",
+        "email": "ella.martinez@example.com",
+        "phone": "8765432109",
+        "address": "456 Birch Lane",
+        "password": "$2a$04$yza.VwxPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Frank Davis",
+        "email": "frank.davis@example.com",
+        "phone": "6789012345",
+        "address": "789 Maple Street",
+        "password": "$2a$04$abc.YzaPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Grace Wilson",
+        "email": "grace.wilson@example.com",
+        "phone": "1234567890",
+        "address": "012 Oak Avenue",
+        "password": "$2a$04$def.AbcPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Henry Taylor",
+        "email": "henry.taylor@example.com",
+        "phone": "9012345678",
+        "address": "345 Pine Street",
+        "password": "$2a$04$ghi.DefPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      {
+        "fullName": "Ivy Rodriguez",
+        "email": "ivy.rodriguez@example.com",
+        "phone": "5678901234",
+        "address": "678 Elm Road",
+        "password": "$2a$04$jkl.GhiPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Candidate"
+      },
+      
+      
+      {
+        "fullName": "Elon Musk",
+        "email": "elon.musk@example.com",
+        "phone": "2109876543",
+        "address": "123 Birch Lane",
+        "password": "$2a$04$mno.JklPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Sundar Pichai",
+        "email": "sundar.pichai@example.com",
+        "phone": "9876543210",
+        "address": "456 Maple Street",
+        "password": "$2a$04$pqr.MnoPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Andy Jassy",
+        "email": "andy.jassy@example.com",
+        "phone": "7890123456",
+        "address": "789 Oak Avenue",
+        "password": "$2a$04$stu.PqrPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Satya Nadella",
+        "email": "satya.nadella@example.com",
+        "phone": "3456789012",
+        "address": "012 Pine Street",
+        "password": "$2a$04$stu.PqrPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Tim Cook",
+        "email": "tim.cook@example.com",
+        "phone": "2345678901",
+        "address": "012 Elm Road",
+        "password": "$2a$04$vwx.StuPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Mark Zuckerberg",
+        "email": "mark.zuckerberg@example.com",
+        "phone": "8765432109",
+        "address": "456 Birch Lane",
+        "password": "$2a$04$yza.VwxPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Arvind Krishna",
+        "email": "arvind.krishna@example.com",
+        "phone": "6789012345",
+        "address": "789 Pine Street",
+        "password": "$2a$04$abc.YzaPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Pat Gelsinger",
+        "email": "pat.gelsinger@example.com",
+        "phone": "1234567890",
+        "address": "012 Oak Avenue",
+        "password": "$2a$04$def.AbcPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Chuck Robbins",
+        "email": "chuck.robbins@example.com",
+        "phone": "9012345678",
+        "address": "345 Pine Street",
+        "password": "$2a$04$ghi.DefPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      },
+      {
+        "fullName": "Safra Catz",
+        "email": "safra.catz@example.com",
+        "phone": "5678901234",
+        "address": "678 Elm Road",
+        "password": "$2a$04$jkl.GhiPbeQNxNp176sSWieQ/m1MTAxblEZJhGe5OTlZSzDjFPHLyG",
+        "role": "Employer"
+      }      
+]

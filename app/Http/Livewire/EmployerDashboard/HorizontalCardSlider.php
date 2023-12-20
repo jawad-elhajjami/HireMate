@@ -6,6 +6,7 @@ use Livewire\Component;
 
 class HorizontalCardSlider extends Component
 {
+    public $cardId;
     public $icHeartSrc = "images/ic-empty-heart.png";
 
     public function render()
